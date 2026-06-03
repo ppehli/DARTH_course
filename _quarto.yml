@@ -4,8 +4,8 @@ project:
 
 website:
   title: "Decision Modeling in R Workshop"
-  site-url: "https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPOSITORY-NAME/"
-  repo-url: "https://github.com/YOUR-GITHUB-USERNAME/YOUR-REPOSITORY-NAME"
+  site-url: "https://ppehli.github.io/DARTH_course/"
+  repo-url: "https://github.com/ppehli/DARTH_course"
   repo-actions: [source, issue]
   search: true
   navbar:
