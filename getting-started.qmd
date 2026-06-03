@@ -17,8 +17,7 @@ Please install the following before the workshop:
 
 ## Recommended R packages
 
-```{r}
-#| eval: false
+```r
 install.packages(c(
   "tidyverse",
   "dampack",

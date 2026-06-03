@@ -15,8 +15,7 @@ Add the exercise objective here.
 
 ## Starter code
 
-```{r}
-#| eval: false
+```r
 # Add starter code here
 ```
 

@@ -6,8 +6,7 @@ title: "Preparation Exercises"
 
 Create a vector of costs and calculate the mean.
 
-```{r}
-#| eval: false
+```r
 costs <- c(1000, 1500, 3000, 5000)
 mean(costs)
 ```
@@ -16,8 +15,7 @@ mean(costs)
 
 Create a simple transition matrix for a three-state Markov model.
 
-```{r}
-#| eval: false
+```r
 tpm <- matrix(
   c(0.85, 0.10, 0.05,
     0.00, 0.80, 0.20,
@@ -34,8 +32,7 @@ tpm
 
 Simulate 1,000 draws from a beta distribution.
 
-```{r}
-#| eval: false
+```r
 set.seed(123)
 p <- rbeta(1000, shape1 = 20, shape2 = 80)
 summary(p)

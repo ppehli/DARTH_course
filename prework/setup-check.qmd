@@ -4,15 +4,13 @@ title: "Setup Check"
 
 Please run the following code before the workshop.
 
-```{r}
-#| eval: false
+```r
 sessionInfo()
 ```
 
 ## Package installation
 
-```{r}
-#| eval: false
+```r
 required_packages <- c(
   "tidyverse", "dampack", "heemod", "hesim", "BCEA",
   "flexsurv", "here", "knitr", "rmarkdown"
@@ -28,8 +26,7 @@ if (length(missing) > 0) {
 
 ## Package loading check
 
-```{r}
-#| eval: false
+```r
 library(tidyverse)
 library(dampack)
 library(heemod)

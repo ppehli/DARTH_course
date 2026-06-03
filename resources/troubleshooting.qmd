@@ -8,8 +8,7 @@ title: "Troubleshooting"
 
 Try restarting R and running:
 
-```{r}
-#| eval: false
+```r
 install.packages("package_name")
 ```
 
