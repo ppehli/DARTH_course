@@ -1,0 +1,12 @@
+---
+title: "Resources"
+---
+
+## Recommended learning resources
+
+- DARTH tutorials
+- Health economic evaluation textbooks
+- R package vignettes
+- Applied examples from decision modeling studies
+
+Add links to specific readings and package documentation here.

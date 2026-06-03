@@ -1,0 +1,10 @@
+---
+title: "Code"
+---
+
+| Day | File | Description |
+|---|---|---|
+| June 25 | `code/day1/01-decision-tree.R` | Simple decision tree |
+| June 25 | `code/day1/02-markov-model.R` | Cohort Markov model |
+| June 26 | `code/day2/03-microsimulation.R` | Individual-level simulation |
+| June 27 | `code/day3/04-sensitivity-analysis.R` | DSA and PSA examples |

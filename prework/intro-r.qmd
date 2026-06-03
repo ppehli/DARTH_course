@@ -1,0 +1,51 @@
+---
+title: "Intro to R for Decision Modeling"
+---
+
+## Learning objectives
+
+By the end of these modules, participants should be able to:
+
+- Create vectors and data frames.
+- Write simple functions.
+- Use probability distributions for model inputs.
+- Read model inputs from CSV files.
+- Run simple simulations.
+- Summarize model outputs.
+
+## Module 1: R basics
+
+Topics:
+
+- Objects
+- Vectors
+- Data frames
+- Indexing
+- Functions
+
+## Module 2: Health economic model inputs
+
+Topics:
+
+- Costs
+- Utilities
+- Probabilities
+- Rates
+- Discounting
+
+## Module 3: Simulation basics
+
+Topics:
+
+- Random sampling
+- Setting seeds
+- Repeated simulations
+- Storing results
+
+## Module 4: Plotting and summarizing outputs
+
+Topics:
+
+- Summarizing costs and QALYs
+- Plotting model outputs
+- Interpreting uncertainty

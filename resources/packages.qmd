@@ -1,0 +1,12 @@
+---
+title: "Recommended R Packages"
+---
+
+| Package | Use |
+|---|---|
+| `tidyverse` | Data wrangling and plotting |
+| `dampack` | Cost-effectiveness analysis and PSA outputs |
+| `heemod` | Markov models for health economic evaluation |
+| `hesim` | Health economic simulation models |
+| `BCEA` | Bayesian cost-effectiveness analysis |
+| `flexsurv` | Parametric survival modeling |

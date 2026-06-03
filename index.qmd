@@ -1,0 +1,31 @@
+---
+title: "Decision Modeling in R Workshop"
+subtitle: "Decision trees, Markov models, microsimulation, and sensitivity analysis"
+---
+
+::: {.hero}
+Welcome to the workshop website. This site contains preparation modules, live-session materials, code demonstrations, coding exercises, homework, and post-workshop resources.
+:::
+
+## Workshop dates
+
+- **June 25, 2026:** Decision trees and Markov models
+- **June 26, 2026:** Microsimulation modeling
+- **June 27, 2026:** Sensitivity analysis
+
+## Expected workload
+
+On workshop days, participants will spend approximately **5-6 hours in live interactive sessions**. We recommend investing an additional **2-4 hours per day** to review material and complete exercises.
+
+## Suggested daily schedule
+
+- Preparation modules with video lectures: **1-2 hours**
+- Live interactive sessions with code demonstrations and coding exercises: **approximately 6 hours daily**
+- Completion of homework assignments: **1-2 hours**
+
+## Start here
+
+1. Review the [Getting Started](getting-started.qmd) page.
+2. Complete the [Pre-workshop Preparation](prework/index.qmd) modules before **June 25, 2026**.
+3. Run the [Setup Check](prework/setup-check.qmd).
+4. Download the workshop repository or use the online coding option provided by the instructors.

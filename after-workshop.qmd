@@ -1,0 +1,20 @@
+---
+title: "After the Workshop"
+---
+
+## Continuing your learning
+
+After the workshop, participants are encouraged to:
+
+- Re-run all coding exercises from a clean R session.
+- Complete the capstone exercise.
+- Adapt one example model to their own research question.
+- Explore the recommended packages and resources.
+
+## Certificate information
+
+Add certificate requirements here, if applicable.
+
+## Community resources
+
+Add links to relevant decision modeling communities, mailing lists, and future training opportunities.

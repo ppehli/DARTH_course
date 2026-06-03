@@ -1,0 +1,18 @@
+---
+title: "Pre-Workshop Preparation"
+---
+
+Participants are expected to have some experience with decision modeling and/or basic concepts of economic evaluation. Self-paced modules introducing R concepts specifically for decision modeling are provided as part of the workshop.
+
+Please complete the **Intro to R for Decision Modeling** modules on your own by **June 25, 2026**.
+
+## Estimated time
+
+- Participants familiar with R: **2-3 hours**
+- Participants new to R or returning after a break: **6-8 hours**
+
+## Modules
+
+1. [Intro to R for Decision Modeling](intro-r.qmd)
+2. [Setup Check](setup-check.qmd)
+3. [Preparation Exercises](preparation-exercises.qmd)

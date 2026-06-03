@@ -1,0 +1,12 @@
+---
+title: "Materials"
+---
+
+This section contains the workshop slides, code, datasets, homework assignments, and solution files.
+
+## Materials by type
+
+- [Slides](slides.qmd)
+- [Code](code.qmd)
+- [Data](data.qmd)
+- [Homework](homework.qmd)

@@ -1,0 +1,27 @@
+---
+title: "Troubleshooting"
+---
+
+## Common issues
+
+### Package installation fails
+
+Try restarting R and running:
+
+```{r}
+#| eval: false
+install.packages("package_name")
+```
+
+### Quarto website does not render
+
+Run:
+
+```bash
+quarto check
+quarto render
+```
+
+### Paths do not work
+
+Use the `here` package or check your working directory.

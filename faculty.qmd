@@ -1,0 +1,21 @@
+---
+title: "Faculty"
+---
+
+## Instructors
+
+Add instructor bios here.
+
+### Instructor Name
+
+Brief biography, affiliation, and areas of expertise.
+
+## Teaching assistants
+
+Add teaching assistant names and contact details here.
+
+## Contact
+
+For questions about preparation, installation, or access to materials, contact:
+
+- `your.email@example.com`

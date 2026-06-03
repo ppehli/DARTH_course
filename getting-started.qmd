@@ -1,0 +1,54 @@
+---
+title: "Getting Started"
+---
+
+## What to do before the workshop
+
+Please complete the **Intro to R for Decision Modeling** modules by **June 25, 2026**. These modules may take **2-8 hours**, depending on your familiarity with R.
+
+## Required software
+
+Please install the following before the workshop:
+
+- R
+- RStudio Desktop or Positron
+- Quarto
+- Git, optional but recommended
+
+## Recommended R packages
+
+```{r}
+#| eval: false
+install.packages(c(
+  "tidyverse",
+  "dampack",
+  "heemod",
+  "hesim",
+  "BCEA",
+  "flexsurv",
+  "here",
+  "knitr",
+  "rmarkdown"
+))
+```
+
+## Repository setup
+
+You can either:
+
+1. Download the workshop materials as a ZIP file from GitHub, or
+2. Clone the repository using Git.
+
+```bash
+git clone https://github.com/YOUR-GITHUB-USERNAME/YOUR-REPOSITORY-NAME.git
+```
+
+## Online coding backup
+
+If local installation is difficult, instructors may provide one of the following:
+
+- Posit Cloud project
+- GitHub Codespaces
+- Binder
+
+Add links here when available.

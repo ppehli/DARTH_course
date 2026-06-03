@@ -1,0 +1,28 @@
+---
+title: "June 26: Microsimulation Modeling"
+---
+
+## Learning objectives
+
+By the end of Day 2, participants should be able to:
+
+- Explain why and when microsimulation is useful.
+- Simulate individual patient trajectories.
+- Incorporate heterogeneity and patient history.
+- Store and summarize patient-level outcomes.
+- Compare microsimulation outputs with cohort model outputs.
+
+## Suggested structure
+
+| Session | Topic | Materials |
+|---|---|---|
+| Morning 1 | Why microsimulation? | Slides, examples |
+| Morning 2 | First patient-level simulation | Code demo |
+| Afternoon 1 | Heterogeneity, memory, and time dependency | Slides, code demo |
+| Afternoon 2 | Microsimulation coding lab | Exercise 3 |
+| Homework | Extend the microsimulation model | Homework 2 |
+
+## Files
+
+- [Microsimulation code](../code/day2/03-microsimulation.R)
+- [Exercise 3](../exercises/exercise-03-microsimulation.qmd)

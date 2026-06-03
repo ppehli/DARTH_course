@@ -1,0 +1,11 @@
+---
+title: "Slides"
+---
+
+Replace the placeholder files with your final slide decks.
+
+| Day | Topic | File |
+|---|---|---|
+| June 25 | Decision trees and Markov models | `slides/day1/day1-slides.pdf` |
+| June 26 | Microsimulation modeling | `slides/day2/day2-slides.pdf` |
+| June 27 | Sensitivity analysis | `slides/day3/day3-slides.pdf` |

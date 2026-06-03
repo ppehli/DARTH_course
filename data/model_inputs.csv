@@ -1,0 +1,8 @@
+parameter,value
+cost_healthy,500
+cost_sick,2000
+utility_healthy,0.9
+utility_sick,0.6
+p_healthy_sick,0.1
+p_healthy_dead,0.05
+p_sick_dead,0.2

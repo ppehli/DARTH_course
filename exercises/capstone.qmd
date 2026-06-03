@@ -1,0 +1,27 @@
+---
+title: "capstone"
+---
+
+## Objective
+
+Add the exercise objective here.
+
+## Instructions
+
+1. Open the relevant R script.
+2. Run the starter code.
+3. Complete the missing sections.
+4. Interpret the results.
+
+## Starter code
+
+```{r}
+#| eval: false
+# Add starter code here
+```
+
+## Questions
+
+1. What are the main assumptions?
+2. Which inputs have the greatest impact on results?
+3. How would you explain the results to a decision maker?

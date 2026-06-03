@@ -1,0 +1,17 @@
+---
+title: "Workshop Schedule"
+---
+
+| Date | Theme | Main activities | Homework |
+|---|---|---|---|
+| June 25 | Decision trees and Markov models | Interactive lectures, decision tree coding lab, cohort Markov model coding lab | Build and interpret a basic Markov model |
+| June 26 | Microsimulation modeling | Individual-level simulation, heterogeneity, patient histories, microsimulation lab | Extend a microsimulation model |
+| June 27 | Sensitivity analysis | Deterministic sensitivity analysis, probabilistic sensitivity analysis, CEACs, EVPI | Complete a mini economic evaluation workflow |
+
+## Daily rhythm
+
+| Component | Suggested duration |
+|---|---:|
+| Preparation videos and reading | 1-2 hours |
+| Live interactive session | 5-6 hours |
+| Homework/review | 1-2 hours |

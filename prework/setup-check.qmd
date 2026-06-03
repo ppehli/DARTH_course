@@ -1,0 +1,41 @@
+---
+title: "Setup Check"
+---
+
+Please run the following code before the workshop.
+
+```{r}
+#| eval: false
+sessionInfo()
+```
+
+## Package installation
+
+```{r}
+#| eval: false
+required_packages <- c(
+  "tidyverse", "dampack", "heemod", "hesim", "BCEA",
+  "flexsurv", "here", "knitr", "rmarkdown"
+)
+
+installed <- rownames(installed.packages())
+missing <- setdiff(required_packages, installed)
+
+if (length(missing) > 0) {
+  install.packages(missing)
+}
+```
+
+## Package loading check
+
+```{r}
+#| eval: false
+library(tidyverse)
+library(dampack)
+library(heemod)
+library(hesim)
+library(BCEA)
+library(flexsurv)
+```
+
+If any package fails to install or load, please contact the workshop team before June 25.

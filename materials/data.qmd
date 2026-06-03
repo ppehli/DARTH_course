@@ -1,0 +1,7 @@
+---
+title: "Data"
+---
+
+| File | Description |
+|---|---|
+| `data/model_inputs.csv` | Toy input dataset for exercises |

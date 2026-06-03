@@ -1,0 +1,31 @@
+---
+title: "June 25: Decision Trees and Markov Models"
+---
+
+## Learning objectives
+
+By the end of Day 1, participants should be able to:
+
+- Explain when to use a decision tree versus a Markov model.
+- Build a simple decision tree in R.
+- Define health states, cycles, transition probabilities, costs, and utilities.
+- Run a cohort Markov model.
+- Calculate total costs, QALYs, and incremental cost-effectiveness ratios.
+
+## Suggested structure
+
+| Session | Topic | Materials |
+|---|---|---|
+| Morning 1 | Introduction to economic evaluation and decision trees | Slides, code demo |
+| Morning 2 | Decision tree coding lab | Exercise 1 |
+| Afternoon 1 | Markov model concepts | Slides, model template |
+| Afternoon 2 | Cohort Markov model coding lab | Exercise 2 |
+| Homework | Build and interpret a simple Markov model | Homework 1 |
+
+## Files
+
+- [Day 1 slides placeholder](../slides/day1/day1-slides.pdf)
+- [Decision tree code](../code/day1/01-decision-tree.R)
+- [Markov model code](../code/day1/02-markov-model.R)
+- [Exercise 1](../exercises/exercise-01-decision-tree.qmd)
+- [Exercise 2](../exercises/exercise-02-markov-model.qmd)

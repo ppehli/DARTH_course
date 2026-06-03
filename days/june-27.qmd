@@ -1,0 +1,29 @@
+---
+title: "June 27: Sensitivity Analysis"
+---
+
+## Learning objectives
+
+By the end of Day 3, participants should be able to:
+
+- Conduct deterministic sensitivity analysis.
+- Conduct probabilistic sensitivity analysis.
+- Generate cost-effectiveness planes and acceptability curves.
+- Interpret uncertainty in model results.
+- Explain the role of sensitivity analysis in decision making.
+
+## Suggested structure
+
+| Session | Topic | Materials |
+|---|---|---|
+| Morning 1 | Deterministic sensitivity analysis | Slides, code demo |
+| Morning 2 | One-way and scenario analysis lab | Exercise 4 |
+| Afternoon 1 | Probabilistic sensitivity analysis | Slides, code demo |
+| Afternoon 2 | CEACs, EVPI, and final synthesis | Capstone exercise |
+| Homework | Complete mini economic evaluation | Capstone |
+
+## Files
+
+- [Sensitivity analysis code](../code/day3/04-sensitivity-analysis.R)
+- [Exercise 4](../exercises/exercise-04-sensitivity-analysis.qmd)
+- [Capstone exercise](../exercises/capstone.qmd)

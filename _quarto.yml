@@ -1,0 +1,84 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Decision Modeling in R Workshop"
+  site-url: "https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPOSITORY-NAME/"
+  repo-url: "https://github.com/YOUR-GITHUB-USERNAME/YOUR-REPOSITORY-NAME"
+  repo-actions: [source, issue]
+  search: true
+  navbar:
+    background: primary
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Start Here"
+        href: getting-started.qmd
+      - text: "Pre-workshop"
+        href: prework/index.qmd
+      - text: "Schedule"
+        href: schedule.qmd
+      - text: "Materials"
+        href: materials/index.qmd
+      - text: "Exercises"
+        href: exercises/index.qmd
+      - text: "Resources"
+        href: resources/index.qmd
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Overview"
+        contents:
+          - index.qmd
+          - getting-started.qmd
+          - schedule.qmd
+          - faculty.qmd
+      - section: "Pre-workshop Preparation"
+        contents:
+          - prework/index.qmd
+          - prework/intro-r.qmd
+          - prework/setup-check.qmd
+          - prework/preparation-exercises.qmd
+      - section: "Workshop Days"
+        contents:
+          - days/june-25.qmd
+          - days/june-26.qmd
+          - days/june-27.qmd
+      - section: "Materials"
+        contents:
+          - materials/index.qmd
+          - materials/slides.qmd
+          - materials/code.qmd
+          - materials/data.qmd
+          - materials/homework.qmd
+      - section: "Exercises"
+        contents:
+          - exercises/index.qmd
+          - exercises/exercise-01-decision-tree.qmd
+          - exercises/exercise-02-markov-model.qmd
+          - exercises/exercise-03-microsimulation.qmd
+          - exercises/exercise-04-sensitivity-analysis.qmd
+          - exercises/capstone.qmd
+      - section: "Resources"
+        contents:
+          - resources/index.qmd
+          - resources/packages.qmd
+          - resources/troubleshooting.qmd
+          - after-workshop.qmd
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    code-copy: true
+    code-overflow: wrap
+    css: styles.css
+
+execute:
+  freeze: auto
