@@ -27,3 +27,25 @@ By the end of Day 3, participants should be able to:
 - [Sensitivity analysis code](../code/day3/04-sensitivity-analysis.R)
 - [Exercise 4](../exercises/exercise-04-sensitivity-analysis.qmd)
 - [Capstone exercise](../exercises/capstone.qmd)
+
+## Video lectures
+
+**Right click below links and select “Open link in new tab”.
+
+#### Sensitivity Analysis – Introduction   
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/506091491?h=5e07e24203&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Sensitivity Analysis - 00  Introduction"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+#### Sensitivity Analysis - 01 DSA   
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/473705896?h=08aaee5604&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Sensitivity Analysis - 01 DSA"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+#### Sensitivity Analysis - 02 PSA      
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/473709355?h=7575dd9894&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Sensitivity Analysis 02 - PSA"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+
+## Readings
+
+- Briggs AH, Weinstein MC, Fenwick E, et al. *Model parameter estimation and uncertainty analysis: a report of the ISPOR-SMDM modeling good research practices task force-6.* Value in Health (2012).  
+  <https://doi.org/10.1177/0272989x12458348>
