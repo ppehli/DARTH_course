@@ -4,6 +4,7 @@ subtitle: "Decision trees, Markov models, microsimulation, and sensitivity analy
 ---
 
 ::: {.hero}
+Hello all,
 Welcome to the workshop website. This site contains preparation modules, live-session materials, code demonstrations, coding exercises, homework, and post-workshop resources.
 :::
 
