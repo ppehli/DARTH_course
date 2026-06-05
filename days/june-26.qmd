@@ -27,29 +27,29 @@ By the end of Day 2, participants should be able to:
 - [Microsimulation code](../code/day2/03-microsimulation.R)
 - [Exercise 3](../exercises/exercise-03-microsimulation.qmd)
 
-## Video lectures
+<!-- ## Video lectures -->
 
-**Right click below links and select “Open link in new tab”.
-#### Microsimulation - 1. Theory   
+<!-- **Right click below links and select “Open link in new tab”. -->
+<!-- #### Microsimulation - 1. Theory    -->
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/473484372?h=b270d78171&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Microsimulation - 1. Theory"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-
-
-#### Microsimulation - 2. Efficiency   
-
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/473071949?h=3491a03c0d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Microsimulation - 2. Efficiency"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<!-- <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/473484372?h=b270d78171&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Microsimulation - 1. Theory"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> -->
 
 
-#### Microsimulation - 3. Implementation   
+<!-- #### Microsimulation - 2. Efficiency    -->
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/473414536?h=85887de382&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Microsimulation - 3. Implementation"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<!-- <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/473071949?h=3491a03c0d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Microsimulation - 2. Efficiency"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> -->
 
-#### Microsimulation - 4. State-residence   
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/473464649?h=31c07bcb78&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Mircosimulation - 4. State-residence"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<!-- #### Microsimulation - 3. Implementation    -->
 
-## Readings
+<!-- <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/473414536?h=85887de382&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Microsimulation - 3. Implementation"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> -->
 
-- Krijkamp EM, Alarid-Escudero F, Enns EA, Jalal HJ, Hunink MM, Pechlivanoglou P. *Microsimulation modeling for health decision sciences using R: A tutorial.* Medical Decision Making (2018).  
-  <https://doi.org/10.1177/0272989X18754513>
+<!-- #### Microsimulation - 4. State-residence    -->
+
+<!-- <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/473464649?h=31c07bcb78&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Mircosimulation - 4. State-residence"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> -->
+
+<!-- ## Readings -->
+
+<!-- - Krijkamp EM, Alarid-Escudero F, Enns EA, Jalal HJ, Hunink MM, Pechlivanoglou P. *Microsimulation modeling for health decision sciences using R: A tutorial.* Medical Decision Making (2018).   -->
+<!--   <https://doi.org/10.1177/0272989X18754513> -->
 

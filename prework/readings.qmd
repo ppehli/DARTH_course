@@ -1,0 +1,21 @@
+---
+title: "Readings"
+---
+
+### Readings for June 25
+
+- Alarid-Escudero F, et al. *A need for change! A coding framework for improving transparency in decision modeling.* Pharmacoeconomics (2019).  
+  <https://doi.org/10.1007/s40273-019-00837-x>
+
+- Alarid-Escudero F, et al. *An introductory tutorial on cohort state-transition models in R...* Medical Decision Making (2022).  
+  <https://doi.org/10.1177/0272989X221103163>
+  
+### Readings for June 26
+
+- Krijkamp EM, Alarid-Escudero F, Enns EA, Jalal HJ, Hunink MM, Pechlivanoglou P. *Microsimulation modeling for health decision sciences using R: A tutorial.* Medical Decision Making (2018).  
+  <https://doi.org/10.1177/0272989X18754513>
+
+### Readings for June 27
+
+- Briggs AH, Weinstein MC, Fenwick E, et al. *Model parameter estimation and uncertainty analysis: a report of the ISPOR-SMDM modeling good research practices task force-6.* Value in Health (2012).  
+  <https://doi.org/10.1177/0272989x12458348>

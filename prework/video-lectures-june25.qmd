@@ -1,0 +1,37 @@
+---
+title: "June 25 Video Lectures"
+---
+
+**Right click below links and select “Open link in new tab”.
+
+### Decision trees   
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/504760041?h=3cfee965fe&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Decision Tree"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+### Matrix algebra for decision sciences sciences (optional: recommended for those without matrix algebra background)   
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/506504682?h=3ff78ac63f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Matrix algebra for decision sciences"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+### Cohort State-Transition Models:
+#### STM 1: Introduction   
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/474550894?h=f090f42dbe&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="STM 1: Introduction"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+#### STM 2: Overview   
+
+<div style="padding:54.06% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/474550940?h=f56df95c06&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="STM 2: Overview"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+#### STM 3: Simple 3-State Example   
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/474551568?h=a27c4f3716&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="STM 3: Simple 3-State Example"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+
+#### STM 4: Outcomes   
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/474553106?h=b3c028d047&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="STM 4: Outcomes"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+#### STM 5: Time-Varying State-Transition Models
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/474560741?h=e0b3674579&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="STM 5: Time-Varying State-Transition Models"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+#### DARTH framework-dampack
+<div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/502987155?h=21385356ef&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="DARTH framework - darthpack"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+

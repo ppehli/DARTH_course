@@ -41,6 +41,10 @@ website:
           - prework/intro-r.qmd
           - prework/setup-check.qmd
           - prework/preparation-exercises.qmd
+          - prework/video-lectures-june25.qmd
+          - prework/video-lectures-june26.qmd
+          - prework/video-lectures-june27.qmd
+          - prework/readings.qmd
       - section: "Workshop Days"
         contents:
           - days/june-25.qmd

@@ -16,3 +16,7 @@ Please complete the **Intro to R for Decision Modeling** modules on your own by 
 1. [Intro to R for Decision Modeling](intro-r.qmd)
 2. [Setup Check](setup-check.qmd)
 3. [Preparation Exercises](preparation-exercises.qmd)
+4. [June 25 Video Lectures](video-lectures-june25.qmd)
+5. [June 26 Video Lectures](video-lectures-june26.qmd)
+6. [June 27 Video Lectures](video-lectures-june27.qmd)
+7. [Readings](readings.qmd)
