@@ -1,17 +1,21 @@
 ---
-title: "Decision Modeling in R Workshop"
-subtitle: "Decision trees, Markov models, microsimulation, and sensitivity analysis"
+title: "Cost-Effectiveness and Decision Modeling using R"
+subtitle: "Oslo, June 2026"
 ---
 
 ::: {.hero}
-Welcome to the workshop website. This site contains preparation modules, live-session materials, code demonstrations, coding exercises, homework, and post-workshop resources.
+Welcome! This website is the official home for all information related to the Cost-Effectiveness and Decision Modeling workshop. This site contains all the information you’ll need to get the most out of this workshop, including software, R packages, and additional resources.
 :::
 
-## Workshop dates
+## Workshop dates and location
+
+In-person sessions will be taking place on the following dates from 10am-4pm GMT+2 (Oslo time):
 
 - **June 25, 2026:** Decision trees and Markov models
 - **June 26, 2026:** Microsimulation modeling
 - **June 27, 2026:** Sensitivity analysis
+
+The course will use Auditorium 2 on Floor 1 of the University of Oslo's main library building called Georg Sverdrups Hus. The address is: Moltke Moes vei 39, 0851 Oslo. Please click here for a link (available in Norwegian and English) to see a map of the building and transportation instructions: https://www.uio.no/english/about/getting-around/areas/blindern/bl27/index.html
 
 ## Expected workload
 
@@ -20,12 +24,22 @@ On workshop days, participants will spend approximately **5-6 hours in live inte
 ## Suggested daily schedule
 
 - Preparation modules with video lectures: **1-2 hours**
-- Live interactive sessions with code demonstrations and coding exercises: **approximately 6 hours daily**
-- Completion of homework assignments: **1-2 hours**
+- Live interactive sessions with code demonstrations and coding exercises: **5-6 hours**
+- Completion of coding assignments: **1-2 hours**
 
-## Start here
+## Communication
 
-1. Review the [Getting Started](getting-started.qmd) page.
-2. Complete the [Pre-workshop Preparation](prework/index.qmd) modules before **June 25, 2026**.
-3. Run the [Setup Check](prework/setup-check.qmd).
-4. Download the workshop repository or use the online coding option provided by the instructors.
+Slack will be our main platform for communication for participants and instructors for this workshop. On course days instructors will be quicker to respond on Slack than email. Please join Slack here: https://darth-oslo2026.slack.com
+
+Prior to the course, if you have questions about preparation, installation, or access to materials, you can contact Petros and Alex:
+- `petros.pechlivanoglou@sickkids.ca`
+- `alexandra.moskalewicz@sickkids.ca`
+
+## What do I need to do before the workshop?
+
+- Complete the Intro to R module: https://intro-to-r-mod.netlify.app/
+- Complete our Google Form so we can learn more about you: https://docs.google.com/forms/d/e/1FAIpQLSc75SFT2TNL-xOU06_QeLgTGqW1_4yWYTlfXb2kLslfVBvBxA/viewform
+- Join the Slack channel and introduce yourself: https://darth-oslo2026.slack.com
+- Familiarize yourself with this course website and locate the preparation modules
+
+

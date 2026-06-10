@@ -1,8 +1,8 @@
 ---
-title: "Faculty"
+title: "Instructors"
 ---
 
-## Instructors
+## Meet the Instructors!
 
 ::: {.columns .align-items-start}
 
@@ -80,9 +80,4 @@ In addition to his collaborations with the DARTH group, he is a member of the So
 
 :::
 
-## Contact
 
-For questions about preparation, installation, or access to materials, contact:
-
-- `petros.pechlivanoglou@sickkids.ca`
-- `alexandra.moskalewicz@sickkids.ca`

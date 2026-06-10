@@ -10,4 +10,3 @@ The exercises are designed to be completed during the live sessions and reviewed
 2. [Markov model](exercise-02-markov-model.qmd)
 3. [Microsimulation](exercise-03-microsimulation.qmd)
 4. [Sensitivity analysis](exercise-04-sensitivity-analysis.qmd)
-5. [Capstone exercise](capstone.qmd)
