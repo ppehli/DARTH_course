@@ -24,10 +24,15 @@ By the end of Day 2, participants should be able to:
 
 ## Materialsn
 
-- [Download slides: Microsimulation modeling in R](../code/day2/Microsimulation_Slides.pdf)   
+<!-- - [View slides: Microsimulation modeling in R](../slides/day2/Microsimulation_Slides.pdf) -->
 
-- [R code demo & walkthrough - Make your model a function](../code/day2/Functions_cSTM_3state_time_demo.R)
-- [R code demo & walkthrough - 3-state microsimulation](../code/day2/microsim_3-state_time.Rmd)
+<!-- - [R code demo & walkthrough - Make your model a function](../code/day2/Functions_cSTM_3state_time_demo.R) -->
+<!-- - [R code demo & walkthrough - 3-state microsimulation](../code/day2/microsim_3-state_time.Rmd) -->
+- <a href="../slides/day2/Microsimulation_Slides.pdf" download>Download slides: Microsimulation modeling in R</a>
+
+- <a href="../code/day2/Functions_cSTM_3state_time_demo.R" download>Download R code demo & walkthrough - Make your model a function</a>
+
+- <a href="../code/day2/microsim_3-state_time.Rmd" download>Download R code demo & walkthrough - 3-state microsimulation</a>
 - [Exercise 3 - Sick-Sicker microsimulation with time dependency](../exercises/exercise-03-microsimulation.qmd)
 
 <!-- ## Video lectures -->
