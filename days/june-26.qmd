@@ -22,7 +22,7 @@ By the end of Day 2, participants should be able to:
 | Afternoon 2 | Microsimulation coding lab | Exercise 3 |
 | Homework | Extend the microsimulation model | Homework 2 |
 
-## Materialsn
+## Materials
 
 <!-- - [View slides: Microsimulation modeling in R](../slides/day2/Microsimulation_Slides.pdf) -->
 

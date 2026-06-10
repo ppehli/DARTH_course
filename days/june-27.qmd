@@ -22,7 +22,7 @@ By the end of Day 3, participants should be able to:
 | Afternoon 2 | CEACs, EVPI, and final synthesis | Capstone exercise |
 | Homework | Complete mini economic evaluation | Capstone |
 
-## Files
+## Materials
 
 <!-- - [Download demo code](../code/day3/cSTM_3state_SA_time.Rmd)    -->
 
