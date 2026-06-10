@@ -1,26 +1,11 @@
 ---
-title: "exercise 03 microsimulation"
+title: "Exercise 3 - Sick-Sicker microsimulation with time dependency"
+subtitle: 'Includes individual characteristics: age, age dependent mortality, individual treatment effect modifer, state-residency for the sick (S1) state, increasing change of death in the first 6 year of sickness'
+author: "The DARTH workgroup"
 ---
 
-## Objective
+[Download data: ‘mortProb_age.csv’](../exercises/exe3-mortProb_age.csv)   
 
-Add the exercise objective here.
+[Download data: ‘MyPopulation-AgeDistribution.csv’](../exercises/exe3-MyPopulation-AgeDistribution.csv)   
 
-## Instructions
-
-1. Open the relevant R script.
-2. Run the starter code.
-3. Complete the missing sections.
-4. Interpret the results.
-
-## Starter code
-
-```r
-# Add starter code here
-```
-
-## Questions
-
-1. What are the main assumptions?
-2. Which inputs have the greatest impact on results?
-3. How would you explain the results to a decision maker?
+[Download excercise template](../exercises/exe3-microsim_Sick-Sicker_time_exercise_template.Rmd)   

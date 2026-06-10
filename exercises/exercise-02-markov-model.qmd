@@ -1,26 +1,11 @@
 ---
-title: "exercise 02 markov model"
+title: "Exercise 02 markov model"
+subtitle: "With simulation-time dependence"
+author: "The DARTH workgroup"
 ---
 
-## Objective
+[Download exercise handout](../exercises/exe2-cSTM_sick-sicker_time_exercise_template.html)   
 
-Add the exercise objective here.
+[Download lifetables](../exercises/exe2-HMD_USA_Mx.csv)   
 
-## Instructions
-
-1. Open the relevant R script.
-2. Run the starter code.
-3. Complete the missing sections.
-4. Interpret the results.
-
-## Starter code
-
-```r
-# Add starter code here
-```
-
-## Questions
-
-1. What are the main assumptions?
-2. Which inputs have the greatest impact on results?
-3. How would you explain the results to a decision maker?
+[Download excercise template](../exercises/exe2-cSTM_sick-sicker_time_exercise_template.Rmd)   

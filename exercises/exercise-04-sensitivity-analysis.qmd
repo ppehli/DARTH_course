@@ -1,26 +1,11 @@
 ---
-title: "exercise 04 sensitivity analysis"
+title: "Exercise 04 sensitivity analysis"
+subtitle: "One-way, two-way and probabilistic sensitivity - this work builds upon the first Sick-Sicker Markov exercise"
+author: "The DARTH workgroup"
 ---
 
-## Objective
+[Download Function](../exercises/exe4-Functions_markov_sick-sicker_time_template.R)   
 
-Add the exercise objective here.
+[Download Dataset](../exercises/exe4-HMD_USA_Mx_2015.csv)   
 
-## Instructions
-
-1. Open the relevant R script.
-2. Run the starter code.
-3. Complete the missing sections.
-4. Interpret the results.
-
-## Starter code
-
-```r
-# Add starter code here
-```
-
-## Questions
-
-1. What are the main assumptions?
-2. Which inputs have the greatest impact on results?
-3. How would you explain the results to a decision maker?
+[Download Exercise](../exercises/exe4-markov_sick-sicker_time_SA_exercise_template.Rmd)   

@@ -1,5 +1,5 @@
 ---
-title: "exercise 01 decision tree"
+title: "Exercise 01 decision tree"
 ---
 
 ## Objective
