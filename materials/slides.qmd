@@ -4,8 +4,14 @@ title: "Slides"
 
 Replace the placeholder files with your final slide decks.
 
+<!-- | Day | Topic | File | -->
+<!-- |---|---|---| -->
+<!-- | June 25 | Decision trees and Markov models | `slides/day1/day1-slides.pdf` | -->
+<!-- | June 26 | Microsimulation modeling | `slides/day2/day2-slides.pdf` | -->
+<!-- | June 27 | Sensitivity analysis | `slides/day3/day3-slides.pdf` | -->
+
 | Day | Topic | File |
 |---|---|---|
-| June 25 | Decision trees and Markov models | `slides/day1/day1-slides.pdf` |
-| June 26 | Microsimulation modeling | `slides/day2/day2-slides.pdf` |
-| June 27 | Sensitivity analysis | `slides/day3/day3-slides.pdf` |
+| June 25 | Decision trees and Markov models | - [Introduction to the course](../slides/day1/26_DARTH_CourseIntroSlides.pptx)<br> - [Decision Tree Modeling in R: Example](../slides/day1/DecisionTreeExampleReview_HVE.pptx)<br>    - [Cost-effectiveness and Decision Modeling](../slides/day1/CEA and Decision Modeling Overview_with Decision tree slides.pptx)<br> - [3-state cSTM in R with state-residence time dependency](../code/day1/cSTM_3state_tunnels.Rmd)<br>   - [3-state cSTM in R with simulation-time time dependency](../code/day1/cSTM_3state_time.Rmd) |
+| June 26 | Microsimulation modeling | [Microsimulation modeling in R](../code/day2/Microsimulation_Slides.pdf) |
+<!-- | June 27 | Sensitivity analysis | `slides/day3/day3-slides.pdf` | -->

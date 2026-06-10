@@ -2,9 +2,21 @@
 title: "Code"
 ---
 
+<!-- | Day | File | Description | -->
+<!-- |---|---|---| -->
+<!-- | June 25 | `code/day1/01-decision-tree.R` | Simple decision tree | -->
+<!-- | June 25 | `code/day1/02-markov-model.R` | Cohort Markov model | -->
+<!-- | June 26 | `code/day2/03-microsimulation.R` | Individual-level simulation | -->
+<!-- | June 27 | `code/day3/04-sensitivity-analysis.R` | DSA and PSA examples | -->
+
 | Day | File | Description |
 |---|---|---|
-| June 25 | `code/day1/01-decision-tree.R` | Simple decision tree |
-| June 25 | `code/day1/02-markov-model.R` | Cohort Markov model |
-| June 26 | `code/day2/03-microsimulation.R` | Individual-level simulation |
-| June 27 | `code/day3/04-sensitivity-analysis.R` | DSA and PSA examples |
+| June 25 | [Decision tree code](../code/day1/01-decision-tree.R) | Simple decision tree |
+| June 25 | [Markov model demo code](../code/day1/02-markov-model.R) | Cohort Markov model |
+| June 25 | [Markov model code](../code/day1/02-markov-model.R) | Cohort Markov model |
+| June 25 | [3-state cSTM in R with simulation-time time dependency](../code/day1/cSTM_3state_time.Rmd) | cSTM with simulation-time dependency |
+| June 25 | [3-state cSTM in R with state-residence time dependency](../code/day1/cSTM_3state_tunnels.Rmd) | cSTM with state-residence time dependency |
+| June 26 | [R code demo & walkthrough - Make your model a function](../code/day2/Functions_cSTM_3state_time_demo.R) | Individual-level simulation function code|
+| June 26 | [R code demo & walkthrough - 3-state microsimulation](../code/day2/microsim_3-state_time.Rmd) | Individual-level simulation function code|
+| June 27 | [Sensitivity analysis demo code](../code/day3/cSTM_3state_SA_time.Rmd) | Sensitivity analysis |
+| June 27 | [Sensitivity analysis model function code](../code/day3/Functions_cSTM_3state_time.R) | Sensitivity analysis model function |

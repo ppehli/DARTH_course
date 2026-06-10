@@ -22,10 +22,13 @@ By the end of Day 2, participants should be able to:
 | Afternoon 2 | Microsimulation coding lab | Exercise 3 |
 | Homework | Extend the microsimulation model | Homework 2 |
 
-## Files
+## Materialsn
 
-- [Microsimulation code](../code/day2/03-microsimulation.R)
-- [Exercise 3](../exercises/exercise-03-microsimulation.qmd)
+- [Download slides: Microsimulation modeling in R](../code/day2/Microsimulation_Slides.pdf)   
+
+- [R code demo & walkthrough - Make your model a function](../code/day2/Functions_cSTM_3state_time_demo.R)
+- [R code demo & walkthrough - 3-state microsimulation](../code/day2/microsim_3-state_time.Rmd)
+- [Exercise 3 - Sick-Sicker microsimulation with time dependency](../exercises/exercise-03-microsimulation.qmd)
 
 <!-- ## Video lectures -->
 

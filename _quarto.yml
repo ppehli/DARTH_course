@@ -1,6 +1,14 @@
 project:
   type: website
   output-dir: _site
+  render:
+    - index.qmd
+    - "*.qmd"
+    - "!code/day1/cSTM_3state_time.Rmd"
+    - "!code/day1/cSTM_3state_tunnels.Rmd"
+    - "!code/day1/decision_tree_HVE_solutions.Rmd"
+    - "!code/day2/microsim_3-state_time.Rmd"
+    - "!code/day3/cSTM_3state_SA_time.Rmd"
 
 website:
   title: "Decision Modeling in R Workshop"

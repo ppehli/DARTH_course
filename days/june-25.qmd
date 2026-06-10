@@ -22,13 +22,24 @@ By the end of Day 1, participants should be able to:
 | Afternoon 2 | Cohort Markov model coding lab | Exercise 2 |
 | Homework | Build and interpret a simple Markov model | Homework 1 |
 
-## Files
+## Materials for Morning Session
 
-- [Day 1 slides placeholder](../slides/day1/day1-slides.pdf)
-- [Decision tree code](../code/day1/01-decision-tree.R)
-- [Markov model code](../code/day1/02-markov-model.R)
+- [Download slides: Introduction to the course](../slides/day1/26_DARTH_CourseIntroSlides.pptx)
+
+- [Download slides: Decision Tree Modeling in R: Example](../slides/day1/DecisionTreeExampleReview_HVE.pptx) 
+- [Download slides: Cost-effectiveness and Decision Modeling](../slides/day1/CEA and Decision Modeling Overview_with Decision tree slides.pptx)
+- [Download code: Decision tree code](../code/day1/01-decision-tree.R)
+- [Download code: Markov model demo code](../code/day1/02-markov-model.R)
 - [Exercise 1](../exercises/exercise-01-decision-tree.qmd)
-- [Exercise 2](../exercises/exercise-02-markov-model.qmd)
+
+## Materials for Afternoon Session
+
+- [Download demo code: 3-state cSTM in R with simulation-time time dependency](../code/day1/cSTM_3state_time.Rmd)   
+
+- [Download demo code-tunnels: 3-state cSTM in R with state-residence time dependency](../code/day1/cSTM_3state_tunnels.Rmd)
+
+
+- [Exercise 2 Markov Model](../exercises/exercise-02-markov-model.qmd)
 
 <!-- ## Video lectures -->
 

@@ -4,4 +4,7 @@ title: "Data"
 
 | File | Description |
 |---|---|
-| `data/model_inputs.csv` | Toy input dataset for exercises |
+| `data/HMD_USA_Mx.csv` | ... |
+| `data/mortProb_age.csv` | ... |
+| `data/MyPopulation-AgeDistribution.csv` | ... |
+| `data/HMD_USA_Mx_2015.csv` | ... |

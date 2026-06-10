@@ -24,9 +24,12 @@ By the end of Day 3, participants should be able to:
 
 ## Files
 
-- [Sensitivity analysis code](../code/day3/04-sensitivity-analysis.R)
-- [Exercise 4](../exercises/exercise-04-sensitivity-analysis.qmd)
-- [Capstone exercise](../exercises/capstone.qmd)
+- [Download demo code](../code/day3/cSTM_3state_SA_time.Rmd)   
+
+- [Download model function code](../code/day3/Functions_cSTM_3state_time.R)
+- [Exercise 4 sensitivity analysis](../exercises/exercise-04-sensitivity-analysis.qmd)
+
+<!-- - [Capstone exercise](../exercises/capstone.qmd) -->
 
 <!-- ## Video lectures -->
 
