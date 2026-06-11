@@ -41,7 +41,8 @@ website:
       #   href: resources/index.qmd
   sidebar:
     style: "docked"
-    search: true
+    collapse-level: 1
+    # search: true
     contents:
       - section: "Home"
         contents:
@@ -52,8 +53,8 @@ website:
       - section: "Pre-workshop Preparation"
         contents:
           - prework/index.qmd
-          - prework/intro-r.qmd
-          - prework/setup-check.qmd
+          # - prework/intro-r.qmd
+          # - prework/setup-check.qmd
           # - prework/preparation-exercises.qmd
           - prework/video-lectures-june25.qmd
           - prework/video-lectures-june26.qmd
