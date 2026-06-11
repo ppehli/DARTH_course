@@ -8,7 +8,7 @@ title: "June 26 Video Lectures"
   <https://doi.org/10.1177/0272989X18754513>
   
   
-**Right click below links and select “Open link in new tab”.   
+<!-- **Right click below links and select “Open link in new tab”.    -->
 
 #### Microsimulation - 1. Theory   
 
