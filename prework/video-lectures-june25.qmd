@@ -2,6 +2,15 @@
 title: "June 25 Video Lectures"
 ---
 
+## Readings
+
+- Alarid-Escudero F, et al. *A need for change! A coding framework for improving transparency in decision modeling.* Pharmacoeconomics (2019).
+  <https://doi.org/10.1007/s40273-019-00837-x>
+
+- Alarid-Escudero F, et al. *An introductory tutorial on cohort state-transition models in R...* Medical Decision Making (2022).
+  <https://doi.org/10.1177/0272989X221103163>
+
+
 **Right click below links and select “Open link in new tab”.
 
 ### Decision trees   

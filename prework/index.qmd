@@ -2,21 +2,18 @@
 title: "Pre-Workshop Preparation"
 ---
 
-Participants are expected to have some experience with decision modeling and/or basic concepts of economic evaluation. Self-paced modules introducing R concepts specifically for decision modeling are provided as part of the workshop.
+## Mandatory pre-course Intro to R module
 
-Please complete the **Intro to R for Decision Modeling** modules on your own by **June 25, 2026**.
+Prior to the start of the workshop, please go through the Introduction to R module to learn the fundamentals and functionality of R that you will need for the workshop. Depending on your current R skills, it may take you between **2-8 hours** to complete the module. Access the module here: <https://intro-to-r-mod.netlify.app/>
 
-## Estimated time
+Please note that the module’s Software Installation page mentions older R and RStudio versions – please disregard this and download the latest versions available.
 
-- Participants familiar with R: **2-3 hours**
-- Participants new to R or returning after a break: **6-8 hours**
+Please let Alex or Petros know if you encounter difficulties installing the *darthtools* and *dampack* R packages when completing the 00_prep.Rmd file on the first page of the module: <https://intro-to-r-mod.netlify.app/days/day1/getting_ready/>
 
-## Modules
 
-1. [Intro to R for Decision Modeling](intro-r.qmd)
-2. [Setup Check](setup-check.qmd)
-3. [Preparation Exercises](preparation-exercises.qmd)
-4. [June 25 Video Lectures](video-lectures-june25.qmd)
-5. [June 26 Video Lectures](video-lectures-june26.qmd)
-6. [June 27 Video Lectures](video-lectures-june27.qmd)
-7. [Readings](readings.qmd)
+## Preparation materials for each workshop day
+
+You are expected to do some preparatory work before coming to class which largely consists of a few readings and watching videos about the theory. During the live sessions (10am-4pm GMT+2 Oslo time) there will be coding demonstrations and time for hands-on practice with coding exercises so please watch the videos ahead of the live session as you will be risking not being able to sufficiently follow the course.
+
+You can find the preparation materials using the menu on the left side of this website. The materials are labelled by day (e.g., June 25 video lectures)
+
