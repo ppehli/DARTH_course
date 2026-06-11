@@ -4,9 +4,52 @@ title: "Materials"
 
 This section contains the workshop slides, code, datasets, homework assignments, and solution files.
 
-## Materials by type
+<!-- ## Materials by type -->
 
-- [Slides](slides.qmd)
-- [Code](code.qmd)
-- [Data](data.qmd)
-- [Homework](homework.qmd)
+<!-- - [Slides](slides.qmd) -->
+<!-- - [Code](code.qmd) -->
+<!-- - [Data](data.qmd) -->
+<!-- - [Homework](homework.qmd) -->
+
+## Slides
+
+<!-- | Day | Topic | File | -->
+<!-- |---|---|---| -->
+<!-- | June 25 | Decision trees and Markov models | `slides/day1/day1-slides.pdf` | -->
+<!-- | June 26 | Microsimulation modeling | `slides/day2/day2-slides.pdf` | -->
+<!-- | June 27 | Sensitivity analysis | `slides/day3/day3-slides.pdf` | -->
+
+| Day | Topic | File |
+|---|---|---|
+| June 25 | Decision trees and Markov models | - [Introduction to the course](../slides/day1/26_DARTH_CourseIntroSlides.pptx)<br> - [Decision Tree Modeling in R: Example](../slides/day1/DecisionTreeExampleReview_HVE.pptx)<br>    - [Cost-effectiveness and Decision Modeling](../slides/day1/CEA and Decision Modeling Overview_with Decision tree slides.pptx)<br> - [3-state cSTM in R with state-residence time dependency](../code/day1/cSTM_3state_tunnels.Rmd)<br>   - [3-state cSTM in R with simulation-time time dependency](../code/day1/cSTM_3state_time.Rmd) |
+| June 26 | Microsimulation modeling | [Microsimulation modeling in R](../code/day2/Microsimulation_Slides.pdf) |
+<!-- | June 27 | Sensitivity analysis | `slides/day3/day3-slides.pdf` | -->
+
+## Code
+
+<!-- | Day | File | Description | -->
+<!-- |---|---|---| -->
+<!-- | June 25 | `code/day1/01-decision-tree.R` | Simple decision tree | -->
+<!-- | June 25 | `code/day1/02-markov-model.R` | Cohort Markov model | -->
+<!-- | June 26 | `code/day2/03-microsimulation.R` | Individual-level simulation | -->
+<!-- | June 27 | `code/day3/04-sensitivity-analysis.R` | DSA and PSA examples | -->
+
+| Day | File | Description |
+|---|---|---|
+| June 25 | [Decision tree code](../code/day1/01-decision-tree.R) | Simple decision tree |
+| June 25 | [Markov model demo code](../code/day1/02-markov-model.R) | Cohort Markov model |
+| June 25 | [Markov model code](../code/day1/02-markov-model.R) | Cohort Markov model |
+| June 25 | [3-state cSTM in R with simulation-time time dependency](../code/day1/cSTM_3state_time.Rmd) | cSTM with simulation-time dependency |
+| June 25 | [3-state cSTM in R with state-residence time dependency](../code/day1/cSTM_3state_tunnels.Rmd) | cSTM with state-residence time dependency |
+| June 26 | [R code demo & walkthrough - Make your model a function](../code/day2/Functions_cSTM_3state_time_demo.R) | Individual-level simulation function code|
+| June 26 | [R code demo & walkthrough - 3-state microsimulation](../code/day2/microsim_3-state_time.Rmd) | Individual-level simulation function code|
+| June 27 | [Sensitivity analysis demo code](../code/day3/cSTM_3state_SA_time.Rmd) | Sensitivity analysis |
+| June 27 | [Sensitivity analysis model function code](../code/day3/Functions_cSTM_3state_time.R) | Sensitivity analysis model function |
+
+## Data
+| File | Description |
+|---|---|
+| `data/HMD_USA_Mx.csv` | ... |
+| `data/mortProb_age.csv` | ... |
+| `data/MyPopulation-AgeDistribution.csv` | ... |
+| `data/HMD_USA_Mx_2015.csv` | ... |

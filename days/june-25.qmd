@@ -25,7 +25,7 @@ By the end of Day 1, participants should be able to:
 | 3:00pm-4:00pm   | Exercise recap
 
 
-<!-- ## Materials for Morning Session -->
+## Materials for Morning Session
 
 <!-- - [Download slides: Introduction to the course](../slides/day1/26_DARTH_CourseIntroSlides.pptx) -->
 
@@ -41,25 +41,45 @@ By the end of Day 1, participants should be able to:
 
 <!-- - [Download demo code-tunnels: 3-state cSTM in R with state-residence time dependency](../code/day1/cSTM_3state_tunnels.Rmd) -->
 
-- <a href="../slides/day1/26_DARTH_CourseIntroSlides.pptx" download>Download slides: Introduction to the course</a>
+<a href="../slides/day1/26_DARTH_CourseIntroSlides.pptx" download>Download slides: Introduction to the course</a>   
 
-- <a href="../slides/day1/DecisionTreeExampleReview_HVE.pptx" download>Download slides: Decision Tree Modeling in R: Example</a>
+<a href="../slides/day1/DecisionTreeExampleReview_HVE.pptx" download>Download slides: Decision Tree Modeling in R: Example</a>   
 
-- <a href="../slides/day1/CEA%20and%20Decision%20Modeling%20Overview_with%20Decision%20tree%20slides.pptx" download>Download slides: Cost-effectiveness and Decision Modeling</a>
+<a href="../slides/day1/CEA%20and%20Decision%20Modeling%20Overview_with%20Decision%20tree%20slides.pptx" download>Download slides: Cost-effectiveness and Decision Modeling</a>   
 
-- <a href="../code/day1/01-decision-tree.R" download>Download code: Decision tree code</a>
+<a href="../code/day1/01-decision-tree.R" download>Download code: Decision tree code</a>   
 
-- <a href="../code/day1/02-markov-model.R" download>Download code: Markov model demo code</a>
+<a href="../code/day1/02-markov-model.R" download>Download code: Markov model demo code</a>   
 
-- <a href="../exercises/exercise-01-decision-tree.qmd" download>Exercise 1</a>
+<!-- - [Exercise 1](../exercises/exercise-01-decision-tree.qmd) -->
 
 ## Materials for Afternoon Session
 
-- <a href="../code/day1/cSTM_3state_time.Rmd" download>Download demo code: 3-state cSTM (simulation-time dependency)</a>
+<a href="../code/day1/cSTM_3state_time.Rmd" download>Download demo code: 3-state cSTM (simulation-time dependency)</a>   
 
-- <a href="../code/day1/cSTM_3state_tunnels.Rmd" download>Download demo code (tunnels): 3-state cSTM (state-residence time dependency)</a>
+<a href="../code/day1/cSTM_3state_tunnels.Rmd" download>Download demo code (tunnels): 3-state cSTM (state-residence time dependency)</a>   
 
-- [Exercise 2 Markov Model](../exercises/exercise-02-markov-model.qmd)
+<!-- - [Exercise 2 Markov Model](../exercises/exercise-02-markov-model.qmd) -->
+
+### Exercise - cohort state-transition Sick-Sicker model   
+
+<!-- [Download exercise handout](../exercises/exe2-cSTM_sick-sicker_time_exercise_template.html)    -->
+
+<!-- [Download lifetables](../exercises/exe2-HMD_USA_Mx.csv)    -->
+
+<!-- [Download excercise template](../exercises/exe2-cSTM_sick-sicker_time_exercise_template.Rmd)    -->
+
+<a href="../exercises/exe2-cSTM_sick-sicker_time_exercise_template.html" download>
+  Download exercise handout
+</a><br>
+
+<a href="../exercises/exe2-HMD_USA_Mx.csv" download>
+  Download lifetables
+</a><br>
+
+<a href="../exercises/exe2-cSTM_sick-sicker_time_exercise_template.Rmd" download>
+  Download exercise template
+</a>
 
 <!-- ## Video lectures -->
 
@@ -96,10 +116,10 @@ By the end of Day 1, participants should be able to:
 <!-- #### DARTH framework-dampack -->
 <!-- <div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/502987155?h=21385356ef&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="DARTH framework - darthpack"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> -->
 
-<!-- ## Readings -->
+## Readings
 
-<!-- - Alarid-Escudero F, et al. *A need for change! A coding framework for improving transparency in decision modeling.* Pharmacoeconomics (2019).   -->
-<!--   <https://doi.org/10.1007/s40273-019-00837-x> -->
+- Alarid-Escudero F, et al. *A need for change! A coding framework for improving transparency in decision modeling.* Pharmacoeconomics (2019).
+  <https://doi.org/10.1007/s40273-019-00837-x>
 
-<!-- - Alarid-Escudero F, et al. *An introductory tutorial on cohort state-transition models in R...* Medical Decision Making (2022).   -->
-<!--   <https://doi.org/10.1177/0272989X221103163> -->
+- Alarid-Escudero F, et al. *An introductory tutorial on cohort state-transition models in R...* Medical Decision Making (2022).
+  <https://doi.org/10.1177/0272989X221103163>

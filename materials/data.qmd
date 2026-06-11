@@ -2,9 +2,9 @@
 title: "Data"
 ---
 
-| File | Description |
-|---|---|
-| `data/HMD_USA_Mx.csv` | ... |
-| `data/mortProb_age.csv` | ... |
-| `data/MyPopulation-AgeDistribution.csv` | ... |
-| `data/HMD_USA_Mx_2015.csv` | ... |
+| File |
+|---|
+| `data/HMD_USA_Mx.csv` |
+| `data/mortProb_age.csv` |
+| `data/MyPopulation-AgeDistribution.csv` | 
+| `data/HMD_USA_Mx_2015.csv` |

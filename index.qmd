@@ -31,9 +31,10 @@ On workshop days, participants will spend approximately **5-6 hours in live inte
 
 Slack will be our main platform for communication for participants and instructors for this workshop. On course days, instructors will be quicker to respond on Slack than email. Please join Slack here: <https://darth-oslo2026.slack.com>
 
-Prior to the course, if you have questions about preparation, installation, or access to materials, you can contact Petros and Alex:
-- `petros.pechlivanoglou@sickkids.ca`
-- `alexandra.moskalewicz@sickkids.ca`
+Prior to the course, if you have questions about preparation, installation, or access to materials, you can contact Petros and Alex:   
+
+- `petros.pechlivanoglou@sickkids.ca`   
+- `alexandra.moskalewicz@sickkids.ca`   
 
 ## What do I need to do before the workshop?
 

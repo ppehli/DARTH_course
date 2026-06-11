@@ -2,8 +2,6 @@
 title: "Slides"
 ---
 
-Replace the placeholder files with your final slide decks.
-
 <!-- | Day | Topic | File | -->
 <!-- |---|---|---| -->
 <!-- | June 25 | Decision trees and Markov models | `slides/day1/day1-slides.pdf` | -->
