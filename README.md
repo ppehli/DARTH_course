@@ -1,5 +1,12 @@
 # Decision Modeling in R Workshop Website
 
+Welcome to the official repository for the Cost-Effectiveness and Decision Modeling using R workshop website.
+
+## Website   
+
+Official workshop website: https://ppehli.github.io/DARTH_course/   
+
+<!--
 This is a Quarto website template for a three-day R decision modeling workshop.
 
 ## How to use
@@ -25,3 +32,4 @@ quarto preview
 ```bash
 quarto render
 ```
+-->
