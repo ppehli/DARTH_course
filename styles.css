@@ -10,3 +10,86 @@
 .schedule-table td, .schedule-table th {
   vertical-align: top;
 }
+
+/* KEEP EVERYTHING ELSE (especially body font) UNCHANGED */
+
+/* chapter container stays neutral */
+.chapter-list {
+  max-width: 900px;
+  margin-top: 20px;
+}
+
+/* FLOATING CHAPTER BLOCK (no font changes) */
+.chapter {
+  border: 1px solid rgba(17, 24, 39, 0.08);
+  border-left: 4px solid rgba(59, 130, 246, 0.35);
+
+  border-radius: 12px;
+
+  margin-bottom: 12px;
+
+  background: white;
+
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+
+  transition: all 0.2s ease;
+}
+
+/* hover = subtle lift only */
+.chapter:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  border-left: 4px solid rgba(59, 130, 246, 0.6);
+}
+
+/* IMPORTANT: do NOT touch font family here */
+.chapter summary {
+  cursor: pointer;
+  list-style: none;
+
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 12px 14px;
+
+  border-radius: 12px;
+}
+
+/* hover highlight only */
+.chapter summary:hover {
+  background: rgba(59, 130, 246, 0.05);
+}
+
+/* remove default arrow */
+.chapter summary::-webkit-details-marker {
+  display: none;
+}
+
+/* expanded content (no font changes, inherit everything) */
+.chapter-content {
+  margin: 10px 14px 14px 14px;
+
+  font-size: 14px;
+  line-height: 1.6;
+
+  color: #374151;
+
+  background: rgba(248, 250, 252, 0.9);
+
+  border: 1px solid rgba(17, 24, 39, 0.06);
+  border-radius: 10px;
+
+  padding: 12px 14px;
+}
+
+/* tag stays untouched visually */
+.tag {
+  font-size: 12px;
+  color: #6b7280;
+  font-weight: 400;
+}

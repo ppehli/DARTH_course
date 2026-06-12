@@ -9,6 +9,20 @@ project:
     - "!code/day1/decision_tree_HVE_solutions.Rmd"
     - "!code/day2/microsim_3-state_time.Rmd"
     - "!code/day3/cSTM_3state_SA_time.Rmd"
+    - "!materials/intro_to_r/00_prep.Rmd"
+    - "!materials/intro_to_r/01_getting_ready.Rmd"
+    - "!materials/intro_to_r/02_Introduction_template.Rmd"
+    - "!materials/intro_to_r/02_Introduction_solutions.Rmd"
+    - "!materials/intro_to_r/03_data_manipulation_template.Rmd"
+    - "!materials/intro_to_r/03_data_manipulation_solutions.Rmd"
+    - "!materials/intro_to_r/04_plotting_template.Rmd"
+    - "!materials/intro_to_r/04_plotting_solutions.Rmd"
+    - "!materials/intro_to_r/05_loops_and_functions_template.Rmd"
+    - "!materials/intro_to_r/05_loops_and_functions_solutions.Rmd"
+    - "!materials/intro_to_r/Matrix algebra in R - template.Rmd.Rmd"
+    - "!materials/intro_to_r/Matrix algebra in R - solutions.Rmd"
+    - "!materials/intro_to_r/05_loops_and_functions_template.Rmd"
+    - "!materials/intro_to_r/05_loops_and_functions_solutions.Rmd"
 
 website:
   title: "Decision Modeling in R Workshop"
@@ -53,7 +67,7 @@ website:
       - section: "Pre-workshop Preparation"
         contents:
           - prework/index.qmd
-          # - prework/intro-r.qmd
+          - prework/intro-r.qmd
           # - prework/setup-check.qmd
           # - prework/preparation-exercises.qmd
           - prework/video-lectures-june25.qmd

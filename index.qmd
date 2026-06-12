@@ -65,7 +65,7 @@ If you will be using a personal machine, follow the installation instructions be
 
 Prior to the start of the workshop, please go through the Introduction to R module to learn the fundamentals and functionality of R that you will need for the workshop. Depending on your current R skills, it may take you between **2-8 hours** to complete the module. Access the module here: <https://intro-to-r-mod.netlify.app/>
 
-Please let Alex or Petros know if you encounter difficulties installing the *darthtools* and *dampack* R packages when completing the 00_prep.Rmd file on the first page of the module: <https://intro-to-r-mod.netlify.app/days/day1/getting_ready/>
+Please let Alex or Petros know if you encounter difficulties installing the *darthtools* and *dampack* R packages when completing the <a href="../materials/intro_to_r/00_prep.Rmd" download>00_prep.Rmd </a>    file on the first page of the module: <https://intro-to-r-mod.netlify.app/days/day1/getting_ready/>
 
 **5. Familiarize yourself with this course website**
 

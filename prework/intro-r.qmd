@@ -1,51 +1,304 @@
 ---
-title: "Intro to R for Decision Modeling"
+title: "Introduction to R"
+format: html
 ---
 
-## Learning objectives
+## Preparation
 
-By the end of these modules, participants should be able to:
+<div class="section-box">
 
-- Create vectors and data frames.
-- Write simple functions.
-- Use probability distributions for model inputs.
-- Read model inputs from CSV files.
-- Run simple simulations.
-- Summarize model outputs.
+<div class="section-text">
+Follow installation instructions to install R, RStudio, and R packages required for the workshop/course.
+</div>
 
-## Module 1: R basics
+</div>
 
-Topics:
 
-- Objects
-- Vectors
-- Data frames
-- Indexing
-- Functions
+## Software Installation
 
-## Module 2: Health economic model inputs
+<div class="section-box">
 
-Topics:
+<div class="section-text">
 
-- Costs
-- Utilities
-- Probabilities
-- Rates
-- Discounting
+In this workshop/course, we will use **R and RStudio**. Please install both on your machine prior to the start of the workshop/course.
 
-## Module 3: Simulation basics
+<!-- If you are using a **company-issued computer**, please work with your IT office to install **R v4.3.1 and RStudio** as soon as possible. -->
+- If you are using a **company-issued computer**, please work with your IT office to install **R v4.5.3 and RStudio** as soon as possible.
 
-Topics:
+- If you are using a **personal machine**, please follow the instructions below:
 
-- Random sampling
-- Setting seeds
-- Repeated simulations
-- Storing results
+<b>Install R</b><br>
+Download the latest version of R [here](https://cran.r-project.org). Follow the installation procedure.
 
-## Module 4: Plotting and summarizing outputs
+<b>Install RStudio</b><br>
+Download and install the free version of RStudio Desktop [here](https://posit.co/download/rstudio-desktop/).
 
-Topics:
+</div>
 
-- Summarizing costs and QALYs
-- Plotting model outputs
-- Interpreting uncertainty
+</div>
+
+## Course Overview
+
+Welcome to the Introduction to R module!
+
+Please go through the presentation videos and demos and attempt the exercises in each of the below sections. We highly recommend attempting the exercises before going through the solutions.   
+
+<!-- - Getting ready -->
+<!-- - Introduction to R -->
+<!-- - Data manipulation -->
+<!-- - Data visualization -->
+<!-- - Loops and functions -->
+<!-- - Matrix algebra -->
+<!-- - R tips and debugging -->
+<!-- - R Shiny    -->
+
+
+
+<div class="chapter-list">
+
+<div class="chapter">
+<details>
+<summary>
+Getting ready <span class="tag"></span>
+</summary>
+
+<div class="chapter-content">
+
+**Video Lecture**  
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/472839769?h=b707675e5a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Getting Ready - Intro to R"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>   
+
+<a href="../materials/intro_to_r/00_prep.Rmd" download>Download R script</a>   
+
+**Slides**  
+<a href="../materials/intro_to_r/01_getting_ready_slides.pptx" download>Download slides</a>   
+
+**Student template**  
+<a href="../materials/intro_to_r/01_getting_ready.Rmd" download>Download student template</a>    
+
+</div>
+</details>
+</div>
+
+<div class="chapter">
+<details>
+<summary>
+Introduction to R <span class="tag"></span>
+</summary>
+
+<div class="chapter-content">
+
+**Video Lecture**  
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/473442290?h=b730270d07&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Introduction to R - Intro to R"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>   
+
+**Slides**  
+<a href="../materials/intro_to_r/02_introduction_to_R_slides.pptx" download>Download slides</a>   
+
+**Student template**  
+<a href="../materials/intro_to_r/02_Introduction_template.Rmd" download>Download student template</a>    
+
+**Instructor solutions**  
+<a href="../materials/intro_to_r/02_Introduction_solutions.Rmd" download>Download instructor solutions</a>      
+
+</div>
+</details>
+</div>
+
+<div class="chapter">
+<details>
+<summary>
+Data manipulation <span class="tag"></span>
+</summary>
+
+<div class="chapter-content">
+
+**Video Lecture**  
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/473042385?h=89314f106d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Data manipulation - Intro to R"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+**Slides**  
+<a href="../materials/intro_to_r/03_data_manipulation_slides.pptx" download>Download slides</a>   
+
+**Data**  
+<a href="../data/framingham.csv" download>Download data</a>   
+<a href="../materials/intro_to_r/Framingham Longitudinal Data Documentation.pdf" download>Download data documentation</a> 
+
+**Student template**  
+<a href="../materials/intro_to_r/03_data_manipulation_template.Rmd" download>Download student template</a>    
+
+**Instructor solutions**  
+<a href="../materials/intro_to_r/03_data_manipulation_solutions.Rmd" download>Download instructor solutions</a>   
+
+</div>
+</details>
+</div>
+
+<div class="chapter">
+<details>
+<summary>
+Data visualization <span class="tag"></span>
+</summary>
+
+<div class="chapter-content">
+
+
+**Video Lecture**  
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/473445406?h=18ed851cf6&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Data visualization - Intro to R"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+**Slides**  
+<a href="../materials/intro_to_r/04_plotting_slides.pptx" download>Download slides</a>   
+
+**Student template**  
+<a href="../materials/intro_to_r/04_plotting_template.Rmd" download>Download student template</a>    
+
+**Instructor solutions**  
+<a href="../materials/intro_to_r/04_plotting_solutions.Rmd" download>Download instructor solutions</a>   
+
+</div>
+</details>
+</div>
+
+<div class="chapter">
+<details>
+<summary>
+Loops & functions <span class="tag"></span>
+</summary>
+
+<div class="chapter-content">
+
+**Video Lecture**  
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/473054054?h=b3b47c1725&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Loops and Functions - Intro to R"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+**Slides**  
+<a href="../materials/intro_to_r/05_loops_function_slides.pptx" download>Download slides</a>   
+
+**Student template**  
+<a href="../materials/intro_to_r/05_loops_and_functions_template.Rmd" download>Download student template</a>    
+
+**Instructor solutions**  
+<a href="../materials/intro_to_r/05_loops_and_functions_solutions.Rmd" download>Download instructor solutions</a>   
+
+</div>
+</details>
+</div>
+
+<div class="chapter">
+<details>
+<summary>
+Matrix algebra <span class="tag"></span>
+</summary>
+
+<div class="chapter-content">
+
+**Video Lecture**  
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/506504682?h=3ff78ac63f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Matrix algebra for decision sciences"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+**Slides**  
+<a href="../materials/intro_to_r/matrixAlgebraSlidesExtra.pptx" download>Download slides</a>   
+
+**Demo**   
+[Download R demo](https://intro-to-r-mod.netlify.app/Course_Modularization/Intro,%20general,%20packages/Matrix%20algebra%20in%20R%20-%20demo.R)
+
+**Exercise**  
+<a href="../materials/intro_to_r/Matrix algebra in R - template.Rmd" download>Download exercise template</a>   
+<a href="../materials/intro_to_r/Matrix algebra in R - solutions.Rmd" download>Download instructor solutions</a>    
+
+**Matrix algebra handout**  
+<a href="../materials/intro_to_r/matrix.algebra.pdf" download>Download handout</a>   
+This handout is only for your reference.
+
+</div>
+</details>
+</div>
+
+<div class="chapter">
+<details>
+<summary>
+R tips & debugging <span class="tag"></span>
+</summary>
+
+<div class="chapter-content">
+
+[Download handout](https://intro-to-r-mod.netlify.app/course_modularization/intro,%20general,%20packages/rtips)
+
+This handout is only for your reference. Right click “Download handout” above and select “Open link in new tab” to open the html file.
+
+</div>
+</details>
+</div>
+
+<div class="chapter">
+<details>
+<summary>
+Shiny (optional) <span class="tag"></span>
+</summary>
+
+<div class="chapter-content">
+
+**Video Lecture**  
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/631266917?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="R Shiny Tutorial"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+**Slides**  
+<a href="../materials/intro_to_r/Shiny_slides.pptx" download>Download slides</a>   
+
+**Demo**  
+<a href="../data/framingham.csv" download>Download demo dataset</a>  
+[Download demo Shiny App](https://intro-to-r-mod.netlify.app/Course_Modularization/Shiny/app.R)
+
+</div>
+</details>
+</div>
+
+</div>
+
+
+
+<!-- By the end of these modules, participants should be able to: -->
+
+<!-- - Create vectors and data frames. -->
+<!-- - Write simple functions. -->
+<!-- - Use probability distributions for model inputs. -->
+<!-- - Read model inputs from CSV files. -->
+<!-- - Run simple simulations. -->
+<!-- - Summarize model outputs. -->
+
+<!-- ## Module 1: R basics -->
+
+<!-- Topics: -->
+
+<!-- - Objects -->
+<!-- - Vectors -->
+<!-- - Data frames -->
+<!-- - Indexing -->
+<!-- - Functions -->
+
+<!-- ## Module 2: Health economic model inputs -->
+
+<!-- Topics: -->
+
+<!-- - Costs -->
+<!-- - Utilities -->
+<!-- - Probabilities -->
+<!-- - Rates -->
+<!-- - Discounting -->
+
+<!-- ## Module 3: Simulation basics -->
+
+<!-- Topics: -->
+
+<!-- - Random sampling -->
+<!-- - Setting seeds -->
+<!-- - Repeated simulations -->
+<!-- - Storing results -->
+
+<!-- ## Module 4: Plotting and summarizing outputs -->
+
+<!-- Topics: -->
+
+<!-- - Summarizing costs and QALYs -->
+<!-- - Plotting model outputs -->
+<!-- - Interpreting uncertainty -->
