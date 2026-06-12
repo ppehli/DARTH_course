@@ -23,7 +23,8 @@ Follow installation instructions to install R, RStudio, and R packages required 
 In this workshop/course, we will use **R and RStudio**. Please install both on your machine prior to the start of the workshop/course.
 
 <!-- If you are using a **company-issued computer**, please work with your IT office to install **R v4.3.1 and RStudio** as soon as possible. -->
-- If you are using a **company-issued computer**, please work with your IT office to install **R v4.5.3 and RStudio** as soon as possible.
+<!-- - If you are using a **company-issued computer**, please work with your IT office to install **R v4.5.3 and RStudio** as soon as possible. -->
+- If you are using a **company-issued computer**, please work with your IT office to install **R(the most recent version) and RStudio** as soon as possible.
 
 - If you are using a **personal machine**, please follow the instructions below:
 
