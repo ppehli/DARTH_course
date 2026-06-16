@@ -4,7 +4,8 @@ subtitle: "Oslo, June 2026"
 ---
 
 ::: {.hero}
-Welcome! This website is the official home for all information related to the Cost-Effectiveness and Decision Modeling workshop. This site contains all the information you’ll need to get the most out of this workshop, including software, R packages, and additional resources.
+<!-- Welcome! This website is the official home for all information related to the Cost-Effectiveness and Decision Modeling workshop. This site contains all the information you’ll need to get the most out of this workshop, including software, R packages, and additional resources. -->
+Welcome! This site contains all the key information for this workshop, including required software, R packages, and additional resources. Please note that completing the mandatory preparation (see Pre-work Preparation) and joining our Slack workspace are essential steps to ensure you are fully prepared before the workshop begins.
 :::
 
 ## Workshop dates and location
@@ -19,7 +20,8 @@ The course will use Auditorium 2 on Floor 1 of the University of Oslo's main lib
 
 ## Expected workload
 
-On workshop days, participants will spend approximately **5-6 hours in live interactive sessions**. We recommend investing an additional **2-4 hours per day** to review material and complete exercises.
+<!-- On workshop days, participants will spend approximately **5-6 hours in live interactive sessions**.  -->
+We recommend investing an additional **2-4 hours per day** to review material and complete exercises.
 
 ## Suggested daily schedule
 

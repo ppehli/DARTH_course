@@ -8,7 +8,10 @@ format: html
 <div class="section-box">
 
 <div class="section-text">
-Follow installation instructions to install R, RStudio, and R packages required for the workshop/course.
+Follow installation instructions to install R, RStudio, and R packages required for the workshop/course.   
+
+Important tips: While solutions will be provided during the sessions, it is important that you actively engage with the material before reviewing them.   
+
 </div>
 
 </div>

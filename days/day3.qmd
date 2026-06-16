@@ -1,5 +1,5 @@
 ---
-title: "June 27: Sensitivity Analysis"
+title: "Day 3: Sensitivity Analysis"
 ---
 
 ## Learning objectives

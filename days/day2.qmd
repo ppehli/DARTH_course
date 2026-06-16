@@ -1,5 +1,5 @@
 ---
-title: "June 26: Microsimulation Modeling"
+title: "Day 2: Microsimulation Modeling"
 ---
 
 ## Learning objectives

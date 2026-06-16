@@ -15,5 +15,5 @@ Please let Alex or Petros know if you encounter difficulties installing the *dar
 
 You are expected to do some preparatory work before coming to class which largely consists of a few readings and watching videos about the theory. During the live sessions (10am-4pm GMT+2 Oslo time) there will be coding demonstrations and time for hands-on practice with coding exercises so please watch the videos ahead of the live session as you will be risking not being able to sufficiently follow the course.
 
-You can find the preparation materials using the menu on the left side of this website. The materials are labelled by day (e.g., June 25 video lectures)
+You can find the preparation materials using the menu on the left side of this website. The materials are labelled by day (e.g., Day 1 video lectures)
 

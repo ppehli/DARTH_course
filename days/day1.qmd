@@ -1,5 +1,5 @@
 ---
-title: "June 25: Decision Trees and Markov Models"
+title: "Day 1: Decision Trees and Markov Models"
 ---
 
 ## Learning objectives
@@ -47,9 +47,9 @@ By the end of Day 1, participants should be able to:
 
 <a href="../slides/day1/CEA%20and%20Decision%20Modeling%20Overview_with%20Decision%20tree%20slides.pptx" download>Download slides: Cost-effectiveness and Decision Modeling</a>   
 
-<a href="../code/day1/01-decision-tree.R" download>Download code: Decision tree code</a>   
+<!-- <a href="../code/day1/01-decision-tree.R" download>Download code: Decision tree code</a>    -->
 
-<a href="../code/day1/02-markov-model.R" download>Download code: Markov model demo code</a>   
+<!-- <a href="../code/day1/02-markov-model.R" download>Download code: Markov model demo code</a>    -->
 
 <!-- - [Exercise 1](../exercises/exercise-01-decision-tree.qmd) -->
 
