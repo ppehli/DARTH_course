@@ -1,6 +1,5 @@
 ---
 title: "Setting up R"
-date: "`r Sys.Date()`"
 output: html_document
 ---
 
@@ -12,7 +11,7 @@ Run the code CHUNK BY CHUNK, in the specified order below.
 
 ```{r}
 # first download and use this package to conveniently install other packages
-install.packages('pacman')
+install.packages('pacman', repos = "http://cran.us.r-project.org")
 library(pacman) 
 ```
 
@@ -34,8 +33,9 @@ p_load("abind",  "dampack", "data.table", "DES", "devtools", "diagram", "dplyr",
 
 ```{r}
 # Enter an empty line to skip updates when prompted
-install_version("ggplot2", version = "3.3.0", repos = "http://cran.us.r-project.org") 
-
+# install_version("ggplot2", version = "3.3.0", repos = "http://cran.us.r-project.org") 
+install.packages("ggplot2")
+library(ggplot2)
 #click "Enter" when they ask about what to update
 ```
 
@@ -51,9 +51,6 @@ install_github("DARTH-git/darthtools", force = TRUE) # (Un)comment if there is a
 
 
 p_load_gh("DARTH-git/darthtools")
-
-install_github("DARTH-git/OpenTree", force = TRUE) # (Un)comment if there is a newer version
-p_load_gh("DARTH-git/OpenTree")
 ```
 
 ```{r}
