@@ -39,12 +39,12 @@ website:
       #   href: getting-started.qmd
       - text: "Pre-Workshop"
         href: prework/index.qmd
-      - text: "Workshop Day 1"
-        href: days/june-25.qmd
-      - text: "Workshop Day 2"
-        href: days/june-26.qmd
-      - text: "Workshop Day 3"
-        href: days/june-27.qmd
+      - text: "Day 1"
+        href: days/day1.qmd
+      - text: "Day 2"
+        href: days/day2.qmd
+      - text: "Day 3"
+        href: days/day3.qmd
       # - text: "Schedule"
       #   href: schedule.qmd
       # - text: "Materials"
