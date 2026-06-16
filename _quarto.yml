@@ -25,7 +25,7 @@ project:
     - "!materials/intro_to_r/05_loops_and_functions_solutions.Rmd"
 
 website:
-  title: "Decision Modeling in R Workshop"
+  title: "Cost-Effectiveness and Decision Modeling in R Workshop"
   site-url: "https://ppehli.github.io/DARTH_course/"
   repo-url: "https://github.com/ppehli/DARTH_course"
   repo-actions: [source, issue]
@@ -37,7 +37,7 @@ website:
         href: index.qmd
       # - text: "Start Here"
       #   href: getting-started.qmd
-      - text: "Pre-workshop"
+      - text: "Pre-Workshop"
         href: prework/index.qmd
       - text: "Workshop Day 1"
         href: days/june-25.qmd
@@ -51,8 +51,8 @@ website:
       #   href: materials/index.qmd
       # - text: "Exercises"
       #   href: exercises/index.qmd
-      # - text: "Resources"
-      #   href: resources/index.qmd
+      - text: "Resources"
+        href: resources/index.qmd
   sidebar:
     style: "docked"
     # collapse-level: 1
@@ -64,7 +64,7 @@ website:
           # - getting-started.qmd
           # - schedule.qmd
           - Instructors.qmd
-      - section: "Pre-workshop Preparation"
+      - section: "Pre-Workshop Preparation"
         contents:
           - prework/index.qmd
           - prework/intro-r.qmd
@@ -94,9 +94,9 @@ website:
       #     - exercises/exercise-03-microsimulation.qmd
       #     - exercises/exercise-04-sensitivity-analysis.qmd
           # - exercises/capstone.qmd
-      # - section: "Resources"
-      #   contents:
-      #     - resources/index.qmd
+      - section: "Resources"
+        contents:
+          - resources/index.qmd
       #     - resources/packages.qmd
       #     - resources/troubleshooting.qmd
       #     - after-workshop.qmd
