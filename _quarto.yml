@@ -28,7 +28,7 @@ website:
   title: "Cost-Effectiveness and Decision Modeling in R Workshop"
   site-url: "https://ppehli.github.io/DARTH_course/"
   repo-url: "https://github.com/ppehli/DARTH_course"
-  repo-actions: [source, issue]
+  #repo-actions: [source, issue]
   search: true
   navbar:
     background: primary
