@@ -1,0 +1,35 @@
+---
+title: "Resources"
+format: html
+---
+
+## Decision Analysis in R for Technologies in Health (DARTH) workgroup
+
+DARTH  is  a  multi-institutional,  multi-university  collaborative  effort  comprised  of  researchers  who  have  a  passion  for  transparent  and  open-source  solutions  to  decision  analysis  in  health.  The  aim  of  this  collaboration  is  to  expand  knowledge  in  decision  analysis  using  R  and  develop  educational  material  that  empowers  people  to  construct  R-based  decision  models. 
+
+Please visit the DARTH website to find tutorials and publications by our group that may be helpful for your own work: <https://www.darthworkgroup.com/>
+
+Follow us on LinkedIn to know about future workshops and publications: <https://www.linkedin.com/company/darth-workgroup/>
+
+
+## R for Health Technology Assessment (HTA) 
+
+R for Health Technology Assessment (HTA) is an academic consortium whose main objective is to explore the use of R for cost-effectiveness analysis (CEA): <https://r-hta.org/>
+
+Access the free web version of the recently published R for HTA textbook: <https://gianluca.statistica.it/books/online/r-hta/>
+
+
+## Society of Medical Decision Making (SMDM)
+
+The Society for Medical Decision Making aims to advance medical decision-making research and practice to improve health outcomes. Members work together with patients, clinicians, researchers, policy-makers, and the public to improve the quality, patient-centeredness, and value of health decisions.
+
+SMDM hosts many (virtual) webinars, workshops, and short courses throughout the year: <https://smdm.org/education/>
+
+
+## International Society for Pharmacoeconomics and Outcomes Research (ISPOR)
+
+ISPOR's mission is to advance health economics and outcomes research excellence to improve decision making for health globally.
+
+ISPOR also hosts educational events throughout the year: <https://www.ispor.org/education-training>
+
+
