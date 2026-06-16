@@ -25,7 +25,7 @@ project:
     - "!materials/intro_to_r/05_loops_and_functions_solutions.Rmd"
 
 website:
-  title: "Cost-Effectiveness and Decision Modeling in R Workshop"
+  title: "Decision Modeling in R Workshop"
   site-url: "https://ppehli.github.io/DARTH_course/"
   repo-url: "https://github.com/ppehli/DARTH_course"
   #repo-actions: [source, issue]
