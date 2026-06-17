@@ -43,6 +43,10 @@ By the end of Day 1, participants should be able to:
 
 <a href="../code/day1/cSTM_3state_tunnels.Rmd" download>Download demo code (tunnels): 3-state cSTM (state-residence time dependency)</a>   
 
+<a href="../data/lifetable_rates.csv" download>
+  Download data: "lifetable_rates.csv"
+</a><br>
+
 ### Exercise - cohort state-transition Sick-Sicker model   
 
 ![Figure 2: Sick-sicker diagram](../code/day1/sick_sicker_diagram.png)   

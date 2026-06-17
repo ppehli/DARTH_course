@@ -27,6 +27,10 @@ By the end of Day 3, participants should be able to:
 
 <a href="../code/day3/Functions_cSTM_3state_time.R" download>Download model function code</a>   
 
+<a href="../data/lifetable_rates.csv" download>
+  Download data: "lifetable_rates.csv"
+</a><br>
+
 ### Exercise - Sensitivity analyses on the Markov Sick-Sicker model   
 
 <a href="../exercises/Functions_markov_sick-sicker_time_template.R" download>
