@@ -44,11 +44,11 @@ By the end of Day 2, participants should be able to:
 
 <!-- [Download excercise template](../exercises/exe3-microsim_Sick-Sicker_time_exercise_template.Rmd)    -->
 
-<a href="../exercises/exe3-mortProb_age.csv" download>
+<a href="../data/mortProb_age.csv" download>
   Download data: ‘mortProb_age.csv’
 </a><br>
 
-<a href="../exercises/exe3-MyPopulation-AgeDistribution.csv" download>
+<a href="../data/MyPopulation-AgeDistribution.csv" download>
   Download data: ‘MyPopulation-AgeDistribution.csv’
 </a><br>
 

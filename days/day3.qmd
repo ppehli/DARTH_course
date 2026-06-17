@@ -43,7 +43,7 @@ By the end of Day 3, participants should be able to:
   Download Function
 </a>
 
-<a href="../exercises/exe4-HMD_USA_Mx_2015.csv" download>
+<a href="../data/HMD_USA_Mx_2015.csv" download>
   Download Dataset
 </a>
 
