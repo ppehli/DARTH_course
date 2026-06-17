@@ -154,6 +154,10 @@ Data visualization <span class="tag"></span>
 **Slides**  
 <a href="../materials/intro_to_r/04_plotting_slides.pptx" download>Download slides</a>   
 
+**Data**  
+<a href="../data/framingham.csv" download>Download data</a>   
+<a href="../materials/intro_to_r/Framingham Longitudinal Data Documentation.pdf" download>Download data documentation</a>   
+
 **Student template**  
 <a href="../materials/intro_to_r/04_plotting_template.Rmd" download>Download student template</a>    
 
