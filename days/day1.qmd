@@ -65,7 +65,7 @@ By the end of Day 1, participants should be able to:
 
 <!-- [Download excercise template](../exercises/exe2-cSTM_sick-sicker_time_exercise_template.Rmd)    -->
 
-<a href="../exercises/exe2-cSTM_sick-sicker_time_exercise_template.html" download>
+<a href="../exercises/cSTM_sick-sicker_time_exercise_template.html" download>
   Download exercise handout
 </a><br>
 
@@ -73,7 +73,7 @@ By the end of Day 1, participants should be able to:
   Download lifetables
 </a><br>
 
-<a href="../exercises/exe2-cSTM_sick-sicker_time_exercise_template.Rmd" download>
+<a href="../exercises/cSTM_sick-sicker_time_exercise_template.Rmd" download>
   Download exercise template
 </a>
 

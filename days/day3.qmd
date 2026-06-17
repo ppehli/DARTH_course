@@ -39,7 +39,7 @@ By the end of Day 3, participants should be able to:
 
 <!-- [Download Exercise](../exercises/exe4-markov_sick-sicker_time_SA_exercise_template.Rmd)    -->
 
-<a href="../exercises/exe4-Functions_markov_sick-sicker_time_template.R" download>
+<a href="../exercises/Functions_markov_sick-sicker_time_template.R" download>
   Download Function
 </a>
 
@@ -47,7 +47,7 @@ By the end of Day 3, participants should be able to:
   Download Dataset
 </a>
 
-<a href="../exercises/exe4-markov_sick-sicker_time_SA_exercise_template.Rmd" download>
+<a href="../exercises/markov_sick-sicker_time_SA_exercise_template.Rmd" download>
   Download Exercise
 </a>
 <!-- - [Capstone exercise](../exercises/capstone.qmd) -->

@@ -52,7 +52,7 @@ By the end of Day 2, participants should be able to:
   Download data: ‘MyPopulation-AgeDistribution.csv’
 </a><br>
 
-<a href="../exercises/exe3-microsim_Sick-Sicker_time_exercise_template.Rmd" download>
+<a href="../exercises/microsim_Sick-Sicker_time_exercise_template.Rmd" download>
   Download exercise template
 </a>
 
