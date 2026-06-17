@@ -47,15 +47,17 @@ Welcome to the Introduction to R module!
 
 Please go through the presentation videos and demos and attempt the exercises in each of the below sections. We highly recommend attempting the exercises before going through the solutions.   
 
-<!-- - Getting ready -->
-<!-- - Introduction to R -->
-<!-- - Data manipulation -->
-<!-- - Data visualization -->
-<!-- - Loops and functions -->
-<!-- - Matrix algebra -->
-<!-- - R tips and debugging -->
-<!-- - R Shiny    -->
+<!-- **Data**   -->
+<!-- please download this dataset as it will be used in multiple exercises -->
+<!-- <a href="../data/framingham.csv" download>Download data</a>    -->
+<!-- <a href="../materials/intro_to_r/Framingham Longitudinal Data Documentation.pdf" download>Download data documentation</a>    -->
 
+### Data (Required)
+
+Please download the dataset below before starting.  
+This dataset will be used throughout multiple exercises in this module.   
+<a href="../data/framingham.csv" download>Download data</a>    
+<a href="../materials/intro_to_r/Framingham Longitudinal Data Documentation.pdf" download>Download data documentation</a>     
 
 
 <div class="chapter-list">
@@ -124,9 +126,9 @@ Data manipulation <span class="tag"></span>
 **Slides**  
 <a href="../materials/intro_to_r/03_data_manipulation_slides.pptx" download>Download slides</a>   
 
-**Data**  
-<a href="../data/framingham.csv" download>Download data</a>   
-<a href="../materials/intro_to_r/Framingham Longitudinal Data Documentation.pdf" download>Download data documentation</a> 
+<!-- **Data**   -->
+<!-- <a href="../data/framingham.csv" download>Download data</a>    -->
+<!-- <a href="../materials/intro_to_r/Framingham Longitudinal Data Documentation.pdf" download>Download data documentation</a>  -->
 
 **Student template**  
 <a href="../materials/intro_to_r/03_data_manipulation_template.Rmd" download>Download student template</a>    
@@ -154,9 +156,9 @@ Data visualization <span class="tag"></span>
 **Slides**  
 <a href="../materials/intro_to_r/04_plotting_slides.pptx" download>Download slides</a>   
 
-**Data**  
-<a href="../data/framingham.csv" download>Download data</a>   
-<a href="../materials/intro_to_r/Framingham Longitudinal Data Documentation.pdf" download>Download data documentation</a>   
+<!-- **Data**   -->
+<!-- <a href="../data/framingham.csv" download>Download data</a>    -->
+<!-- <a href="../materials/intro_to_r/Framingham Longitudinal Data Documentation.pdf" download>Download data documentation</a>    -->
 
 **Student template**  
 <a href="../materials/intro_to_r/04_plotting_template.Rmd" download>Download student template</a>    
@@ -209,7 +211,8 @@ Matrix algebra <span class="tag"></span>
 <a href="../materials/intro_to_r/matrixAlgebraSlidesExtra.pptx" download>Download slides</a>   
 
 **Demo**   
-[Download R demo](https://intro-to-r-mod.netlify.app/Course_Modularization/Intro,%20general,%20packages/Matrix%20algebra%20in%20R%20-%20demo.R)
+<!-- [Download R demo](https://intro-to-r-mod.netlify.app/Course_Modularization/Intro,%20general,%20packages/Matrix%20algebra%20in%20R%20-%20demo.R) -->
+<a href="../materials/intro_to_r/Matrix algebra in R - demo.R" download>Download R demo</a> 
 
 **Exercise**  
 <a href="../materials/intro_to_r/Matrix algebra in R - template.Rmd" download>Download exercise template</a>   
@@ -231,7 +234,9 @@ R tips & debugging <span class="tag"></span>
 
 <div class="chapter-content">
 
-[Download handout](https://intro-to-r-mod.netlify.app/course_modularization/intro,%20general,%20packages/rtips)
+<!-- [Download handout](https://intro-to-r-mod.netlify.app/course_modularization/intro,%20general,%20packages/rtips) -->
+
+<a href="../materials/intro_to_r/rtips.html" download>Download handout</a> 
 
 This handout is only for your reference. Right click “Download handout” above and select “Open link in new tab” to open the html file.
 
@@ -254,8 +259,9 @@ Shiny (optional) <span class="tag"></span>
 <a href="../materials/intro_to_r/Shiny_slides.pptx" download>Download slides</a>   
 
 **Demo**  
-<a href="../data/framingham.csv" download>Download demo dataset</a>  
-[Download demo Shiny App](https://intro-to-r-mod.netlify.app/Course_Modularization/Shiny/app.R)
+<!-- <a href="../data/framingham.csv" download>Download demo dataset</a>   -->
+<!-- [Download demo Shiny App](https://intro-to-r-mod.netlify.app/Course_Modularization/Shiny/app.R) -->
+<a href="../materials/intro_to_r/app.R" download>Download demo Shiny App</a> 
 
 </div>
 </details>
