@@ -27,7 +27,7 @@ In this workshop/course, we will use **R and RStudio**. Please install both on y
 
 <!-- If you are using a **company-issued computer**, please work with your IT office to install **R v4.3.1 and RStudio** as soon as possible. -->
 <!-- - If you are using a **company-issued computer**, please work with your IT office to install **R v4.5.3 and RStudio** as soon as possible. -->
-- If you are using a **company-issued computer**, please work with your IT office to install **R(the most recent version) and RStudio** as soon as possible.
+- If you are using a **company-issued computer**, please work with your IT office to install **R (the most recent version) and RStudio** as soon as possible.
 
 - If you are using a **personal machine**, please follow the instructions below:
 
@@ -46,11 +46,6 @@ Download and install the free version of RStudio Desktop [here](https://posit.co
 Welcome to the Introduction to R module!
 
 Please go through the presentation videos and demos and attempt the exercises in each of the below sections. We highly recommend attempting the exercises before going through the solutions.   
-
-<!-- **Data**   -->
-<!-- please download this dataset as it will be used in multiple exercises -->
-<!-- <a href="../data/framingham.csv" download>Download data</a>    -->
-<!-- <a href="../materials/intro_to_r/Framingham Longitudinal Data Documentation.pdf" download>Download data documentation</a>    -->
 
 ### Data (Required)
 
@@ -268,51 +263,3 @@ Shiny (optional) <span class="tag"></span>
 </div>
 
 </div>
-
-
-
-<!-- By the end of these modules, participants should be able to: -->
-
-<!-- - Create vectors and data frames. -->
-<!-- - Write simple functions. -->
-<!-- - Use probability distributions for model inputs. -->
-<!-- - Read model inputs from CSV files. -->
-<!-- - Run simple simulations. -->
-<!-- - Summarize model outputs. -->
-
-<!-- ## Module 1: R basics -->
-
-<!-- Topics: -->
-
-<!-- - Objects -->
-<!-- - Vectors -->
-<!-- - Data frames -->
-<!-- - Indexing -->
-<!-- - Functions -->
-
-<!-- ## Module 2: Health economic model inputs -->
-
-<!-- Topics: -->
-
-<!-- - Costs -->
-<!-- - Utilities -->
-<!-- - Probabilities -->
-<!-- - Rates -->
-<!-- - Discounting -->
-
-<!-- ## Module 3: Simulation basics -->
-
-<!-- Topics: -->
-
-<!-- - Random sampling -->
-<!-- - Setting seeds -->
-<!-- - Repeated simulations -->
-<!-- - Storing results -->
-
-<!-- ## Module 4: Plotting and summarizing outputs -->
-
-<!-- Topics: -->
-
-<!-- - Summarizing costs and QALYs -->
-<!-- - Plotting model outputs -->
-<!-- - Interpreting uncertainty -->

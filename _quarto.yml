@@ -55,8 +55,6 @@ website:
         href: resources/index.qmd
   sidebar:
     style: "docked"
-    # collapse-level: 1
-    # search: true
     contents:
       - section: "Home"
         contents:
