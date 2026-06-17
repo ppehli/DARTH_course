@@ -33,7 +33,7 @@ By the end of Day 2, participants should be able to:
 
 ### Exercise - Sick-Sicker microsimulation with time dependency   
 
-![Figure 1: Sick-sicker diagram](../code/day2/sick_sicker_diagram.png)     
+![Figure 1: Sick-sicker diagram](../code/day2/sick_sicker_diagram.png){width=60%}     
 
 <a href="../data/mortProb_age.csv" download>
   Download data: ‘mortProb_age.csv’

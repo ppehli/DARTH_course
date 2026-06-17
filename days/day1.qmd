@@ -49,7 +49,7 @@ By the end of Day 1, participants should be able to:
 
 ### Exercise - cohort state-transition Sick-Sicker model   
 
-![Figure 2: Sick-sicker diagram](../code/day1/sick_sicker_diagram.png)   
+![Figure 2: Sick-sicker diagram](../code/day1/sick_sicker_diagram.png){width=60%}  
 
 <!-- <a href="../exercises/cSTM_sick-sicker_time_exercise_template.html" download> -->
 <!--   Download exercise handout -->
