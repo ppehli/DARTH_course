@@ -36,6 +36,7 @@ In this exercise, we will model a hypothetical disease using an individual-based
 ```{r, echo = F, warning = F, message = F, out.width = '100%', fig.cap = 'Schematic representation of the Sick-Sicker model', fig.align = 'center'}
 if (!require(here)) install.packages('here')
 if (!require(knitr)) install.packages('knitr')
+# include_graphics("../figures/sick_sicker_diagram_microsim.png")
 ```
 
 Advantages of using a microsimulation implementation is the ability to incorporate variation in the baseline characteristics for every individual and to keep track of state-residence. To illustrate this, we assume that individual mortality rates depend on baseline characteristics as well as time spend in the sick health state. 

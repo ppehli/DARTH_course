@@ -27,6 +27,8 @@ By the end of Day 1, participants should be able to:
 
 ## Materials for Morning Session
 
+![Figure 1: Decision tree](../code/day1/decision_tree_HVE.png)   
+
 <a href="../slides/day1/26_DARTH_CourseIntroSlides.pptx" download>Download slides: Introduction to the course</a>   
 
 <a href="../slides/day1/DecisionTreeExampleReview_HVE.pptx" download>Download slides: Decision Tree Modeling in R: Example</a>   
@@ -43,9 +45,14 @@ By the end of Day 1, participants should be able to:
 
 ### Exercise - cohort state-transition Sick-Sicker model   
 
-<a href="../exercises/cSTM_sick-sicker_time_exercise_template.html" download>
-  Download exercise handout
-</a><br>
+![Figure 2: Sick-sicker diagram](../code/day1/sick_sicker_diagram.png)   
+
+<!-- <a href="../exercises/cSTM_sick-sicker_time_exercise_template.html" download> -->
+<!--   Download exercise handout -->
+<!-- </a><br> -->
+<a href="../exercises/cSTM_sick-sicker_time_exercise_template.html" target="_blank">
+  View exercise handout
+</a>
 
 <a href="../data/HMD_USA_Mx.csv" download>
   Download lifetables

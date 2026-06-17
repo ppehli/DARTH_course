@@ -38,6 +38,7 @@ Parameters are summarized in Table 1 and the tree structure is shown in the figu
 
 ```{r, echo = F, warning = F, message = F, out.width = '100%', fig.cap = 'Schematic representation of the Sick-Sicker model', fig.align = 'center'}
 if (!require(knitr)) install.packages('knitr')
+# include_graphics("figures/decision_tree_HVE.png")
 ```
 
 
