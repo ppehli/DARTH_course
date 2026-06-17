@@ -425,7 +425,7 @@ Load the `calculate_ce_out` .
 
 ```{r}
 ## Load model, CEA and PSA functions 
-source('../functions/Functions_markov_sick-sicker_time.R')
+source('Functions_markov_sick-sicker_time.R')
 ```
 
 ## 10.1 Model input for SA

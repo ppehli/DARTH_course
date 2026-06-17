@@ -306,7 +306,7 @@ MicroSim <- function(n_i, df_X, Trt = "SoC", seed = 1, cycle_length = 1, verbose
   for (t in 1:n_cycles) {
     print(t)
     
-    if(t==34){browser()}
+    # if(t==34){browser()}
     
     # calculate the transition probabilities for the cycle based on health state t
     

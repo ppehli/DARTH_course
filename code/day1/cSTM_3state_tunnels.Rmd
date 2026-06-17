@@ -70,7 +70,7 @@ r_HS_trtA <- 0.04  # rate of becoming sick when healthy, under treatment A
 r_HS_trtB <- 0.02  # rate of becoming sick when healthy, under treatment B
 r_SD      <- 0.1   # probability of dying when sick
 # probabilities of dying when healthy (age-dependent) s
-v_r_HD    <- read.csv("data/lifetable_rates.csv")$x # select lifetable mortality rates when healthy
+v_r_HD    <- read.csv("lifetable_rates.csv")$x # select lifetable mortality rates when healthy
 #v_r_HD <- v_r_HD[1:n_cycles] # if shorter cycle lengths are preferred, select only values needed
 
 if(n_cycles > length(v_r_HD)){paste("Note: the lifetable data only supports as simulation of", length(v_r_HD), "years", sep = " ")}

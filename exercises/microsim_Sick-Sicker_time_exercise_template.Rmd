@@ -36,7 +36,6 @@ In this exercise, we will model a hypothetical disease using an individual-based
 ```{r, echo = F, warning = F, message = F, out.width = '100%', fig.cap = 'Schematic representation of the Sick-Sicker model', fig.align = 'center'}
 if (!require(here)) install.packages('here')
 if (!require(knitr)) install.packages('knitr')
-include_graphics("../figures/sick_sicker_diagram_microsim.png")
 ```
 
 Advantages of using a microsimulation implementation is the ability to incorporate variation in the baseline characteristics for every individual and to keep track of state-residence. To illustrate this, we assume that individual mortality rates depend on baseline characteristics as well as time spend in the sick health state. 
@@ -176,13 +175,13 @@ p_S1S2_trtAB <- rate_to_prob(r_S1S2_trtAB, time = cycle_length) # Age-specific m
 
 # Annual rates of death
 # load age dependent probability and rates
-p_mort   <- read.csv("data/mortProb_age.csv")
+p_mort   <- read.csv("mortProb_age.csv")
 
 # calculate monthly mortality probability 
 p_mort$p_mort_m <- rate_to_prob(p_mort$r_HD, time = cycle_length)
 
 # load age distribution
-dist_Age <- read.csv("data/MyPopulation-AgeDistribution.csv") 
+dist_Age <- read.csv("MyPopulation-AgeDistribution.csv") 
 
 # rates of dying in S1 by cycle (is increasing)
 v_r_S1D    <- c(0.0149, 0.018, 0.021, 0.026, 0.031, rep(0.037, n_cycles * cycle_length - 5)) 
