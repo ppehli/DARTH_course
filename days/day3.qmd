@@ -33,7 +33,11 @@ By the end of Day 3, participants should be able to:
 
 ### Exercise - Sensitivity analyses on the Markov Sick-Sicker model   
 
-<a href="../exercises/Functions_markov_sick-sicker_time_template.R" download>
+<!-- <a href="../exercises/Functions_markov_sick-sicker_time_template.R" download> -->
+<!--   Download Function -->
+<!-- </a> -->
+
+<a href="../exercises/Functions_markov_sick-sicker_time.R" download>
   Download Function
 </a>
 
