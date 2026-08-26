@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: _site
   render:
-    - prework/index.qmd
+    - index.qmd
     - "*.qmd"
     - "!code/day1/cSTM_3state_time.Rmd"
     - "!code/day1/cSTM_3state_tunnels.Rmd"
@@ -59,13 +59,13 @@ website:
     contents:
       # - section: "Home"
       #   contents:
-      #     - index.qmd
+          - index.qmd
       #     # - getting-started.qmd
       #     # - schedule.qmd
       #     # - Instructors.qmd
-      - section: "Pre-Workshop Preparation"
-        contents:
-          - prework/index.qmd
+      # - section: "Pre-Workshop Preparation"
+      #   contents:
+      #     - prework/index.qmd
           - prework/intro-r.qmd
           # - prework/setup-check.qmd
           # - prework/preparation-exercises.qmd

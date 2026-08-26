@@ -1,15 +1,14 @@
 ---
-title: "Cost-Effectiveness and Decision Modeling using R"
-subtitle: "Oslo, June 2026"
+title: "Pre-Workshop Preparation"
 ---
 
-::: {.hero}
-<!-- Welcome! This website is the official home for all information related to the Cost-Effectiveness and Decision Modeling workshop. This site contains all the information you’ll need to get the most out of this workshop, including software, R packages, and additional resources. -->
-Welcome! This site contains all the key information for this workshop, including required software, R packages, and additional resources. 
+<!-- ::: {.hero} -->
+<!-- <!-- Welcome! This website is the official home for all information related to the Cost-Effectiveness and Decision Modeling workshop. This site contains all the information you’ll need to get the most out of this workshop, including software, R packages, and additional resources. --> -->
+<!-- Welcome! This site contains all the key information for this workshop, including required software, R packages, and additional resources.  -->
 
-Please note that completing the Pre-Workshop Preparation materials and joining the Slack workspace are essential steps to ensure you are fully prepared before the workshop begins. See below on this page for instructions on where to locate these items.
+<!-- Please note that completing the Pre-Workshop Preparation materials and joining the Slack workspace are essential steps to ensure you are fully prepared before the workshop begins. See below on this page for instructions on where to locate these items. -->
 
-:::
+<!-- ::: -->
 
 <!-- ## Workshop dates and location -->
 
@@ -31,14 +30,14 @@ Please note that completing the Pre-Workshop Preparation materials and joining t
 
 <!-- Slack will be our main platform for communication for participants and instructors for this workshop. On course days, instructors will be quicker to respond on Slack than email. Please join Slack here: <https://darth-oslo2026.slack.com> -->
 
-Prior to the course, if you have questions about preparation, installation, or access to materials, you can contact Petros and Alex:   
+<!-- Prior to the course, if you have questions about preparation, installation, or access to materials, you can contact Petros and Alex:    -->
 
-- `petros.pechlivanoglou@sickkids.ca`   
-- `alexandra.moskalewicz@sickkids.ca`   
+<!-- - `petros.pechlivanoglou@sickkids.ca`    -->
+<!-- - `alexandra.moskalewicz@sickkids.ca`    -->
 
-## What do I need to do before the workshop?
+<!-- ## What do I need to do before the workshop? -->
 
-Everyone will need to complete the following items:
+<!-- Everyone will need to complete the following items: -->
 
 <!-- **1. Complete our pre-course survey** -->
 
@@ -51,25 +50,37 @@ Everyone will need to complete the following items:
 
 <!-- We encourage you to give us a short introduction about yourself in the main chatroom once you join! -->
 
-**1. Install software**
+<!-- **1. Install software** -->
 
-In this workshop, we will use R and RStudio. Please install them on your machine prior to the start of the workshop.
+<!-- In this workshop, we will use R and RStudio. Please install them on your machine prior to the start of the workshop. -->
 
-If you will be using a company-issued computer to participate in the workshop, please work with your IT office to install R and RStudio on your computer as soon as possible.
+<!-- If you will be using a company-issued computer to participate in the workshop, please work with your IT office to install R and RStudio on your computer as soon as possible. -->
 
-If you will be using a personal machine, follow the installation instructions below:
-- Download R from here and follow the installation procedure: <https://mirror.csclub.uwaterloo.ca/CRAN/>
-- Then, download and install the free version of RStudio Desktop from here: <https://docs.posit.co/ide/user/#rstudio-ide-oss-downloads>
+<!-- If you will be using a personal machine, follow the installation instructions below: -->
+<!-- - Download R from here and follow the installation procedure: <https://mirror.csclub.uwaterloo.ca/CRAN/> -->
+<!-- - Then, download and install the free version of RStudio Desktop from here: <https://docs.posit.co/ide/user/#rstudio-ide-oss-downloads> -->
 
-**2. Mandatory pre-course Intro to R module**
+<!-- **2. Mandatory pre-course Intro to R module** -->
 
-Prior to the start of the workshop, please go through the Introduction to R module to learn the fundamentals and functionality of R that you will need for the workshop. Depending on your current R skills, it may take you between **2-8 hours** to complete the module.
+<!-- Prior to the start of the workshop, please go through the Introduction to R module to learn the fundamentals and functionality of R that you will need for the workshop. Depending on your current R skills, it may take you between **2-8 hours** to complete the module. -->
 
-You can find the module by clicking the "Introduction to R" section on the menu on the left of this website, or clicking here: <https://ppehli.github.io/DARTH_course/prework/intro-r.html>
+<!-- You can find the module by clicking the "Introduction to R" section on the menu on the left of this website, or clicking here: <https://ppehli.github.io/DARTH_course/prework/intro-r.html> -->
 
 
-**3. Familiarize yourself with this course website**
+<!-- **3. Familiarize yourself with this course website** -->
 
-Please explore the website and locate the preparation materials (readings and video lectures) that should be viewed prior to attending the workshop each day.
+<!-- Please explore the website and locate the preparation materials (readings and video lectures) that should be viewed prior to attending the workshop each day. -->
 
+## Mandatory pre-course Intro to R module
+
+Prior to the start of the workshop, please go through the Introduction to R module to learn the fundamentals and functionality of R that you will need for the workshop. Depending on your current R skills, it may take you between **2-8 hours** to complete the module. Access the module here: [Introduction to R](../prework/intro-r.qmd)
+
+<!-- Please let Alex or Petros know if you encounter difficulties installing the *darthtools* and *dampack* R packages when completing the 00_prep.Rmd file on the first page of the Intro to R module. -->
+
+
+<!-- ## Preparation materials for each workshop day -->
+
+<!-- You are expected to do some preparatory work before coming to class which largely consists of a few readings and watching videos about the theory. During the live sessions (10am-4pm GMT+2 Oslo time) there will be coding demonstrations and time for hands-on practice with coding exercises so please watch the videos ahead of the live session as you will be risking not being able to sufficiently follow the course. -->
+
+<!-- You can find the preparation materials using the menu on the left side of this website. The materials are labelled by day (e.g., Day 1 video lectures) -->
 
