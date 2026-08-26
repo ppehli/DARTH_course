@@ -11,25 +11,25 @@ Please note that completing the Pre-Workshop Preparation materials and joining t
 
 :::
 
-## Workshop dates and location
+<!-- ## Workshop dates and location -->
 
-In-person sessions will be taking place on the following dates from 10am-4pm GMT+2 (Oslo time):
+<!-- In-person sessions will be taking place on the following dates from 10am-4pm GMT+2 (Oslo time): -->
 
-- **June 25, 2026:** Decision trees and Markov models
-- **June 26, 2026:** Microsimulation modeling
-- **June 27, 2026:** Sensitivity analysis
+<!-- - **June 25, 2026:** Decision trees and Markov models -->
+<!-- - **June 26, 2026:** Microsimulation modeling -->
+<!-- - **June 27, 2026:** Sensitivity analysis -->
 
-The course will use Auditorium 2 on Floor 1 of the University of Oslo's main library building called Georg Sverdrups Hus. The address is: Moltke Moes vei 39, 0851 Oslo. Please click here for a link (available in Norwegian and English) to see a map of the building and transportation instructions: <https://www.uio.no/english/about/getting-around/areas/blindern/bl27/index.html>
+<!-- The course will use Auditorium 2 on Floor 1 of the University of Oslo's main library building called Georg Sverdrups Hus. The address is: Moltke Moes vei 39, 0851 Oslo. Please click here for a link (available in Norwegian and English) to see a map of the building and transportation instructions: <https://www.uio.no/english/about/getting-around/areas/blindern/bl27/index.html> -->
 
-## Suggested daily schedule
+<!-- ## Suggested daily schedule -->
 
-- Preparation modules with video lectures: **1-2 hours**
-- Live interactive sessions with code demonstrations and coding exercises: **5-6 hours**
-- Completion of coding assignments (if not finished during class time): **1-2 hours**
+<!-- - Preparation modules with video lectures: **1-2 hours** -->
+<!-- - Live interactive sessions with code demonstrations and coding exercises: **5-6 hours** -->
+<!-- - Completion of coding assignments (if not finished during class time): **1-2 hours** -->
 
-## Communication
+<!-- ## Communication -->
 
-Slack will be our main platform for communication for participants and instructors for this workshop. On course days, instructors will be quicker to respond on Slack than email. Please join Slack here: <https://darth-oslo2026.slack.com>
+<!-- Slack will be our main platform for communication for participants and instructors for this workshop. On course days, instructors will be quicker to respond on Slack than email. Please join Slack here: <https://darth-oslo2026.slack.com> -->
 
 Prior to the course, if you have questions about preparation, installation, or access to materials, you can contact Petros and Alex:   
 
@@ -40,18 +40,18 @@ Prior to the course, if you have questions about preparation, installation, or a
 
 Everyone will need to complete the following items:
 
-**1. Complete our pre-course survey**
+<!-- **1. Complete our pre-course survey** -->
 
-Complete this Google Form so we can learn more about you: <https://docs.google.com/forms/d/e/1FAIpQLSc75SFT2TNL-xOU06_QeLgTGqW1_4yWYTlfXb2kLslfVBvBxA/viewform>
+<!-- Complete this Google Form so we can learn more about you: <https://docs.google.com/forms/d/e/1FAIpQLSc75SFT2TNL-xOU06_QeLgTGqW1_4yWYTlfXb2kLslfVBvBxA/viewform> -->
 
-**2. Set up Slack**
+<!-- **2. Set up Slack** -->
 
-We will use Slack as the main platform for online communications. Throughout and after the workshop, instructors and participants can stay connected on Slack to exchange ideas, discuss problems and seek help from each other.
-Click here to join the Slack workspace: <https://darth-oslo2026.slack.com>. After you join, you can access the workspace via its URL or the Slack desktop app.
+<!-- We will use Slack as the main platform for online communications. Throughout and after the workshop, instructors and participants can stay connected on Slack to exchange ideas, discuss problems and seek help from each other. -->
+<!-- Click here to join the Slack workspace: <https://darth-oslo2026.slack.com>. After you join, you can access the workspace via its URL or the Slack desktop app. -->
 
-We encourage you to give us a short introduction about yourself in the main chatroom once you join!
+<!-- We encourage you to give us a short introduction about yourself in the main chatroom once you join! -->
 
-**3. Install software**
+**1. Install software**
 
 In this workshop, we will use R and RStudio. Please install them on your machine prior to the start of the workshop.
 
@@ -61,14 +61,14 @@ If you will be using a personal machine, follow the installation instructions be
 - Download R from here and follow the installation procedure: <https://mirror.csclub.uwaterloo.ca/CRAN/>
 - Then, download and install the free version of RStudio Desktop from here: <https://docs.posit.co/ide/user/#rstudio-ide-oss-downloads>
 
-**4. Mandatory pre-course Intro to R module**
+**2. Mandatory pre-course Intro to R module**
 
 Prior to the start of the workshop, please go through the Introduction to R module to learn the fundamentals and functionality of R that you will need for the workshop. Depending on your current R skills, it may take you between **2-8 hours** to complete the module.
 
 You can find the module by clicking the "Introduction to R" section on the menu on the left of this website, or clicking here: <https://ppehli.github.io/DARTH_course/prework/intro-r.html>
 
 
-**5. Familiarize yourself with this course website**
+**3. Familiarize yourself with this course website**
 
 Please explore the website and locate the preparation materials (readings and video lectures) that should be viewed prior to attending the workshop each day.
 

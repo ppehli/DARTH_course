@@ -39,12 +39,12 @@ website:
       #   href: getting-started.qmd
       - text: "Pre-Workshop"
         href: prework/index.qmd
-      - text: "Day 1"
-        href: days/day1.qmd
-      - text: "Day 2"
-        href: days/day2.qmd
-      - text: "Day 3"
-        href: days/day3.qmd
+      # - text: "Day 1"
+      #   href: days/day1.qmd
+      # - text: "Day 2"
+      #   href: days/day2.qmd
+      # - text: "Day 3"
+      #   href: days/day3.qmd
       # - text: "Schedule"
       #   href: schedule.qmd
       # - text: "Materials"
@@ -61,22 +61,22 @@ website:
           - index.qmd
           # - getting-started.qmd
           # - schedule.qmd
-          - Instructors.qmd
+          # - Instructors.qmd
       - section: "Pre-Workshop Preparation"
         contents:
           - prework/index.qmd
           - prework/intro-r.qmd
           # - prework/setup-check.qmd
           # - prework/preparation-exercises.qmd
-          - prework/video-lectures-day1.qmd
-          - prework/video-lectures-day2.qmd
-          - prework/video-lectures-day3.qmd
+          # - prework/video-lectures-day1.qmd
+          # - prework/video-lectures-day2.qmd
+          # - prework/video-lectures-day3.qmd
           # - prework/readings.qmd
-      - section: "Workshop Days"
-        contents:
-          - days/day1.qmd
-          - days/day2.qmd
-          - days/day3.qmd
+      # - section: "Workshop Days"
+      #   contents:
+      #     - days/day1.qmd
+      #     - days/day2.qmd
+      #     - days/day3.qmd
       # - section: "Materials"
       #   contents:
       #     - materials/index.qmd
