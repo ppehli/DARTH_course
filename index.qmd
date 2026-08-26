@@ -5,13 +5,3 @@ title: "Pre-Workshop Preparation"
 ## Mandatory pre-course Intro to R module
 
 Prior to the start of the workshop, please go through the Introduction to R module to learn the fundamentals and functionality of R that you will need for the workshop. Depending on your current R skills, it may take you between **2-8 hours** to complete the module. Access the module here: [Introduction to R](../prework/intro-r.qmd)
-
-<!-- Please let Alex or Petros know if you encounter difficulties installing the *darthtools* and *dampack* R packages when completing the 00_prep.Rmd file on the first page of the Intro to R module. -->
-
-
-<!-- ## Preparation materials for each workshop day -->
-
-<!-- You are expected to do some preparatory work before coming to class which largely consists of a few readings and watching videos about the theory. During the live sessions (10am-4pm GMT+2 Oslo time) there will be coding demonstrations and time for hands-on practice with coding exercises so please watch the videos ahead of the live session as you will be risking not being able to sufficiently follow the course. -->
-
-<!-- You can find the preparation materials using the menu on the left side of this website. The materials are labelled by day (e.g., Day 1 video lectures) -->
-
