@@ -25,7 +25,8 @@ project:
     - "!materials/intro_to_r/05_loops_and_functions_solutions.Rmd"
 
 website:
-  title: "Decision Modeling in R Workshop"
+  # title: "Decision Modeling in R Workshop"
+  title: "Intro to R for Decision Modeling"
   site-url: "https://ppehli.github.io/DARTH_course/"
   repo-url: "https://github.com/ppehli/DARTH_course"
   #repo-actions: [source, issue]
@@ -33,8 +34,8 @@ website:
   navbar:
     background: primary
     left:
-      - text: "Home"
-        href: index.qmd
+      # - text: "Home"
+      #   href: index.qmd
       # - text: "Start Here"
       #   href: getting-started.qmd
       - text: "Pre-Workshop"
@@ -51,17 +52,17 @@ website:
       #   href: materials/index.qmd
       # - text: "Exercises"
       #   href: exercises/index.qmd
-      - text: "Resources"
-        href: resources/index.qmd
+      # - text: "Resources"
+      #   href: resources/index.qmd
   sidebar:
     style: "docked"
     contents:
-      - section: "Home"
-        contents:
-          - index.qmd
-          # - getting-started.qmd
-          # - schedule.qmd
-          # - Instructors.qmd
+      # - section: "Home"
+      #   contents:
+      #     - index.qmd
+      #     # - getting-started.qmd
+      #     # - schedule.qmd
+      #     # - Instructors.qmd
       - section: "Pre-Workshop Preparation"
         contents:
           - prework/index.qmd
@@ -92,9 +93,9 @@ website:
       #     - exercises/exercise-03-microsimulation.qmd
       #     - exercises/exercise-04-sensitivity-analysis.qmd
           # - exercises/capstone.qmd
-      - section: "Resources"
-        contents:
-          - resources/index.qmd
+      # - section: "Resources"
+      #   contents:
+      #     - resources/index.qmd
       #     - resources/packages.qmd
       #     - resources/troubleshooting.qmd
       #     - after-workshop.qmd

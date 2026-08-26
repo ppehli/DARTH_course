@@ -1,5 +1,5 @@
 ---
-title: "Introduction to R"
+title: "Introduction to R for Decision Making"
 format: html
 ---
 
@@ -193,37 +193,6 @@ Loops & functions <span class="tag"></span>
 <div class="chapter">
 <details>
 <summary>
-Matrix algebra <span class="tag"></span>
-</summary>
-
-<div class="chapter-content">
-
-**Video Lecture**  
-
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/506504682?h=3ff78ac63f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Matrix algebra for decision sciences"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-
-**Slides**  
-<a href="../materials/intro_to_r/matrixAlgebraSlidesExtra.pptx" download>Download slides</a>   
-
-**Demo**   
-<!-- [Download R demo](https://intro-to-r-mod.netlify.app/Course_Modularization/Intro,%20general,%20packages/Matrix%20algebra%20in%20R%20-%20demo.R) -->
-<a href="../materials/intro_to_r/Matrix algebra in R - demo.R" download>Download R demo</a> 
-
-**Exercise**  
-<a href="../materials/intro_to_r/Matrix algebra in R - template.Rmd" download>Download exercise template</a>   
-<a href="../materials/intro_to_r/Matrix algebra in R - solutions.Rmd" download>Download instructor solutions</a>    
-
-**Matrix algebra handout**  
-<a href="../materials/intro_to_r/matrix.algebra.pdf" download>Download handout</a>   
-This handout is only for your reference.
-
-</div>
-</details>
-</div>
-
-<div class="chapter">
-<details>
-<summary>
 R tips & debugging <span class="tag"></span>
 </summary>
 
@@ -234,29 +203,6 @@ R tips & debugging <span class="tag"></span>
 <a href="../materials/intro_to_r/rtips.html" download>Download handout</a> 
 
 This handout is only for your reference. Right click “Download handout” above and select “Open link in new tab” to open the html file.
-
-</div>
-</details>
-</div>
-
-<div class="chapter">
-<details>
-<summary>
-Shiny (optional) <span class="tag"></span>
-</summary>
-
-<div class="chapter-content">
-
-**Video Lecture**  
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/631266917?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="R Shiny Tutorial"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-
-**Slides**  
-<a href="../materials/intro_to_r/Shiny_slides.pptx" download>Download slides</a>   
-
-**Demo**  
-<!-- <a href="../data/framingham.csv" download>Download demo dataset</a>   -->
-<!-- [Download demo Shiny App](https://intro-to-r-mod.netlify.app/Course_Modularization/Shiny/app.R) -->
-<a href="../materials/intro_to_r/app.R" download>Download demo Shiny App</a> 
 
 </div>
 </details>
