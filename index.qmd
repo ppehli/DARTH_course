@@ -4,4 +4,4 @@ title: "Pre-Workshop Preparation"
 
 ## Mandatory pre-course Intro to R module
 
-Prior to the start of the workshop, please go through the Introduction to R module to learn the fundamentals and functionality of R that you will need for the workshop. Depending on your current R skills, it may take you between **2-8 hours** to complete the module. Access the module here: [Introduction to R](../prework/intro-r.qmd)
+Prior to the start of the workshop, please go through the Introduction to R module to learn the fundamentals and functionality of R that you will need for the workshop. Depending on your current R skills, it may take you between **2-8 hours** to complete the module. Access the module here: [Introduction to R](/prework/intro-r.qmd)
