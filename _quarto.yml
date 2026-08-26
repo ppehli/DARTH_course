@@ -34,12 +34,12 @@ website:
   navbar:
     background: primary
     left:
-      # - text: "Home"
-      #   href: index.qmd
+      - text: "Home"
+        href: index.qmd
       # - text: "Start Here"
       #   href: getting-started.qmd
-      - text: "Pre-Workshop"
-        href: prework/index.qmd
+      # - text: "Pre-Workshop"
+      #   href: prework/index.qmd
       # - text: "Day 1"
       #   href: days/day1.qmd
       # - text: "Day 2"
@@ -57,7 +57,7 @@ website:
   sidebar:
     style: "docked"
     contents:
-      # - section: "Home"
+      - section: "Home"
       #   contents:
           - index.qmd
       #     # - getting-started.qmd
