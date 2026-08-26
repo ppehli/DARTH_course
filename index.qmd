@@ -1,5 +1,5 @@
 ---
-title: "Introduction to R for Decision Making"
+title: "Pre-Workshop Preparation"
 ---
 
 ## Mandatory pre-course Intro to R module
