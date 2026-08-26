@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: _site
   render:
-    - index.qmd
+    - prework/index.qmd
     - "*.qmd"
     - "!code/day1/cSTM_3state_time.Rmd"
     - "!code/day1/cSTM_3state_tunnels.Rmd"
