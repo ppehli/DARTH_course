@@ -34,8 +34,8 @@ website:
   navbar:
     background: primary
     left:
-      - text: "Home"
-        href: index.qmd
+      - text: "Intro to R"
+        href: prework/intro-r.qmd
       # - text: "Start Here"
       #   href: getting-started.qmd
       # - text: "Pre-Workshop"
