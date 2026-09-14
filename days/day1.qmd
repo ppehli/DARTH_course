@@ -33,7 +33,7 @@ By the end of Day 1, participants should be able to:
 
 <a href="../slides/day1/DecisionTreeExampleReview_HVE.pptx" download>Download slides: Decision Tree Modeling in R: Example</a>   
 
-<a href="../slides/day1/CEA%20and%20Decision%20Modeling%20Overview_with%20Decision%20tree%20slides.pptx" download>Download slides: Cost-effectiveness and Decision Modeling</a>   
+<!-- <a href="../slides/day1/CEA%20and%20Decision%20Modeling%20Overview_with%20Decision%20tree%20slides.pptx" download>Download slides: Cost-effectiveness and Decision Modeling</a>    -->
 
 <a href="../code/day1/decision_tree_HVE_solutions.Rmd" download>Download demo code: Decision Trees</a> 
 
@@ -65,3 +65,36 @@ By the end of Day 1, participants should be able to:
 <a href="../exercises/cSTM_sick-sicker_time_exercise_template.Rmd" download>
   Download exercise template
 </a>
+
+<!-- <div id="download-link" style="display:none;">
+  <a href="../exercises/cSTM_sick-sicker_time_solutions.Rmd" download>
+    Download Markov Sick-Sicker exercise - SOLUTIONS
+  </a>
+</div>
+
+<script>
+  const releaseTime = new Date("2026-06-25T16:00:00-04:00");
+  const now = new Date();
+
+  if (now >= releaseTime) {
+    document.getElementById("download-link").style.display = "block";
+  }
+</script> -->
+
+
+## Extra materials
+
+## HVE model implemented using OpenTree
+
+<a href="../code/day1/decision_tree_HVE_OpenTree_solutions.Rmd" download>
+  Download OpenTree demo code
+</a>
+
+<a href="../code/day1/HVEsolution2.json" download>
+  Download json file
+</a>
+
+## Extra materials - HVE model implemented using DecisionTwigs
+
+<https://hjalal.github.io/twig/articles/decision_tree.html#decisiontwig>
+

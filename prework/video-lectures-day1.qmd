@@ -4,10 +4,10 @@ title: "Day 1 Video Lectures"
 
 ## Readings
 
-- Alarid-Escudero F, et al. *A need for change! A coding framework for improving transparency in decision modeling.* Pharmacoeconomics (2019).
+- Alarid-Escudero, F., Krijkamp, E.M., Pechlivanoglou, P. et al. *A Need for Change! A Coding Framework for Improving Transparency in Decision Modeling.* PharmacoEconomics (2019).
   <https://doi.org/10.1007/s40273-019-00837-x>
 
-- Alarid-Escudero F, et al. *An introductory tutorial on cohort state-transition models in R...* Medical Decision Making (2022).
+- Alarid-Escudero F, Krijkamp E, Enns EA, et al. *An Introductory Tutorial on Cohort State-Transition Models in R Using a Cost-Effectiveness Analysis Example* Medical Decision Making (2023).
   <https://doi.org/10.1177/0272989X221103163>
 
 

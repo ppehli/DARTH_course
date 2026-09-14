@@ -1,0 +1,458 @@
+---
+title: 'SOLUTIONS - Microsimulation Sick-Sicker model with time dependency - Excerise'
+subtitle: 'Includes individual characteristics: age, age dependent mortality, individual treatment effect modifer, state-residency for the sick (S1) state, increasing change of death in the first 6 year of sickness'
+author: "The DARTH workgroup"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+Developed by the Decision Analysis in R for Technologies in Health (DARTH) workgroup.
+If you use this code as a basis for your own work, please cite our papers (see suggestions below) and in your acknowledgments for both the code and publications please add:
+**The authors thank the Decision Analysis in R for Technologies in Health (DARTH) workgroup for providing the coding framework in R.**
+
+
+See student template for exercise description. 
+
+\newpage
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, eval = TRUE)
+options(scipen = 999)  # disable scientific notation
+rm(list = ls())        # clear memory (removes all the variables from the workspace)
+```
+
+Change `eval` to `TRUE` if you want to knit this document.
+
+# 01 Load packages
+
+```{r}
+if (!require('pacman')) install.packages('pacman'); library(pacman) 
+# load (install if required) packages from CRAN
+p_load("devtools", "dplyr", "scales", "ellipse", "ggplot2", "lazyeval", "igraph", "truncnorm", "ggraph", "reshape2", "knitr", "markdown", "matrixStats", "stringr", "dampack")
+# load (install if required) packages from GitHub
+# install_github("DARTH-git/darthtools", force = TRUE) # Uncomment if there is a newer version
+p_load_gh("DARTH-git/darthtools")
+```
+
+# 02 Load functions
+
+
+```{r}
+
+#create microsimulation trace
+plot_trace_microsim <- function (m_M, v_n_states = v_names_states) 
+{
+  n_states <- length(v_n_states)
+  m_TR <- t(apply(m_M, 2, function(x) table(factor(x, levels = v_n_states, 
+                                                   ordered = TRUE))))
+  m_TR <- m_TR/nrow(m_M)
+  colnames(m_TR) <- v_n_states
+  rownames(m_TR) <- paste("Cycle", 0:(ncol(m_M) - 1), sep = " ")
+  plot(0:(ncol(m_M) - 1), m_TR[, 1], type = "l", main = "Health state trace", 
+       ylim = c(0, 1), ylab = "Proportion of cohort", xlab = "Cycle")
+  for (n_states in 2:length(v_n_states)) {
+    lines(0:(ncol(m_M) - 1), m_TR[, n_states], col = n_states)
+  }
+  legend("topright", v_n_states, col = 1:length(v_n_states), 
+         lty = rep(1, length(v_n_states)), bty = "n", cex = 0.65)
+}
+```
+
+# 03 Model input
+
+We load all the model input parameters as described in Table 1.
+
+```{r}
+## General setup 
+set.seed(1)               # set the seed  
+cycle_length   <- 1/12       # cycle length equal to one year (use 1/12 for monthly)
+n_cycles       <- 30 /cycle_length     # time horizon, number of cycles
+n_i            <- 100000  # number of individuals
+
+# the 4 health states of the model:
+v_names_states  <- c("H",  # Healthy (H)
+                     "S1", # Sick (S1)
+                     "S2", # Sicker (S2)
+                     "D")  # Dead (D)
+v_names_cycles  <- paste("cycle", 0:n_cycles)    # cycle names
+n_states        <- length(v_names_states) # number of health states               
+
+### Discounting factors 
+d_c <- 0.03 # annual discount rate for costs 
+d_e <- 0.03 # annual discount rate for QALYs
+
+
+### Strategies 
+v_names_str   <- c("Standard of care",   # store the strategy names
+                   "Strategy AB") 
+n_str         <- length(v_names_str)     # number of strategies
+
+### Transition rates 
+# (all non-probabilities are conditional on survival)
+r_HS1         <- 0.15     # rate of becoming sick when healthy
+r_S1H         <- 0.5      # rate of recovering to healthy when sick
+r_S1S2_SoC    <- 0.105    # rate of becoming sicker when sick under standard of care
+r_S1S2_trtAB  <- 0.05     # rate of becoming sicker when sick under treatment AB
+
+# transform rates to probabilities adjusting by cycle length
+p_HS1        <- rate_to_prob(r = r_HS1,    time = cycle_length) # constant annual probability of becoming Sick when Healthy 
+p_S1H        <- rate_to_prob(r = r_S1H,    time = cycle_length) # constant annual probability of becoming Healthy when Sick 
+p_S1S2_SoC   <- rate_to_prob(r_S1S2_SoC,   time = cycle_length) # Age-specific mortality risk in the Sick state
+p_S1S2_trtAB <- rate_to_prob(r_S1S2_trtAB, time = cycle_length) # Age-specific mortality risk in the Sicker state
+
+# Annual rates of death
+# load age dependent probability and rates
+p_mort   <- read.csv("mortProb_age.csv")
+
+# calculate monthly mortality probability 
+p_mort$p_mort_m <- rate_to_prob(p_mort$r_HD, time = cycle_length)
+
+# load age distribution
+dist_Age <- read.csv("MyPopulation-AgeDistribution.csv") 
+
+# rates of dying in S1 by cycle (is increasing)
+v_r_S1D    <- c(0.0149, 0.018, 0.021, 0.026, 0.031, rep(0.037, n_cycles * cycle_length - 5)) 
+  r_S2D    <- 0.048   # rate of dying in S2
+v_p_S1D    <- rate_to_prob(r = v_r_S1D,  time = cycle_length) # constant annual probability of becoming Healthy when Sick 
+v_p_S1D    <- rep(v_p_S1D, each = 1/cycle_length) 
+p_S2D      <- rate_to_prob(r =   r_S2D,  time = cycle_length) # constant annual probability of becoming Healthy when Sick 
+
+  
+  
+### State rewards 
+#### Costs 
+c_H     <- 2000  * cycle_length #  cost of one cycle being Healthy
+c_S1    <- 4000  * cycle_length #  cost of one cycle  being Sick
+c_S2    <- 15000 * cycle_length #  cost of one cycle  being Sicker
+c_D     <- 0                    #  cost of one cycle  being dead
+c_trtAB <- 25000 * cycle_length #  cost of one cycle  receiving treatment AB when in Sick
+#### Utilities 
+u_H     <- 1     # annual utility of being Healthy
+u_S1    <- 0.75  # annual utility of being Sick
+u_S2    <- 0.5   # annual utility of being Sicker
+u_D     <- 0     # annual utility of being dead
+u_trtAB <- 0.95  # annual utility when receiving treatment AB when in Sick
+
+```
+
+## 03.2 Calculate internal model parameters
+
+``` {r}
+### Discount weight for costs and effects 
+v_dwc   <- 1 / ((1 + (d_c * cycle_length)) ^ (0:n_cycles))
+v_dwe   <- 1 / ((1 + (d_e * cycle_length)) ^ (0:n_cycles))
+
+# Within-cycle correction (WCC) - method  options Simpson's 1/3 rule, "half-cycle" or "none" 
+v_wcc    <- darthtools::gen_wcc(n_cycles = n_cycles, 
+                                method = "Simpson1/3") # vector of wcc
+```
+
+# 04 Sample individual level characteristics
+
+## 04.1 Static characteristics
+
+```{r}
+# sample the treatment effect modifier at baseline 
+v_x     <- runif(n_i, min = 0.95, max = 1.05) 
+# sample from the age distribution the initial age for every individual
+v_age0  <- sample(x = dist_Age$age, prob = dist_Age$prop, size = n_i, replace = TRUE) 
+```
+
+## 04.2 Dynamic characteristics 
+
+```{r}
+# Specify the initial health state of the individuals 
+# everyone begins in the healthy state (in this example)
+v_M_init          <- rep("H", times = n_i)   
+v_n_cycles_s_init <- rep(0, n_i)  # a vector with the time of being sick at the start of the model 
+```
+
+## 04.3 Create a dataframe with the individual characteristics 
+
+```{r}
+# create a data frame with each individual's 
+# ID number, treatment effect modifier, age and initial time in sick state 
+df_X <- data.frame(ID = 1:n_i, x = v_x, Age = v_age0, n_cycles_s = v_n_cycles_s_init, M_init = v_M_init) 
+head(df_X)  # print the first rows of the dataframe
+```
+
+# 05 Define Simulation Functions
+
+## 05.1 Probability function
+
+The `Probs` function updates the transition probabilities of every cycle is shown below.
+
+```{r}
+Probs <- function(M_t, df_X, Trt = "Standard of care") { 
+  # Arguments:
+    # M_t:  health state occupied by individual i at cycle t (character variable)
+    # df_X: data frame with individual characteristics data 
+    # Trt:  treatment
+  # Returns: 
+    # transition probabilities for that cycle
+  
+  # Treatment specific transition probabilities
+  if (Trt == "Standard of care") {
+    p_S1S2 <- p_S1S2_SoC
+  } else if (Trt == "Strategy AB") {
+    p_S1S2 <- p_S1S2_trtAB
+  }
+  
+  # create matrix of state transition probabilities  
+  m_p_t           <- matrix(data = 0, nrow = n_i , ncol = n_states) 
+  colnames(m_p_t) <-  v_names_states  # give the state names to the rows
+  
+  # age is continous, but the matching has to happen with a rounded age
+  df_X$Age <- floor(df_X$Age)
+  
+  # lookup baseline probability and rate of dying based on individual characteristics age
+   p_HD_all <- inner_join(x = df_X, y = p_mort, by = c("Age"))
+   p_HD     <- p_HD_all[M_t == "H", "p_mort_m"]
+  
+  
+  # update the m_p with the appropriate probabilities   
+  # (all non-death probabilities are conditional on survival) 
+  # transition probabilities when Healthy 
+  m_p_t[M_t == "H", "H" ]  <- 1 - p_HS1 - p_HD
+  m_p_t[M_t == "H", "S1"]  <-     p_HS1 
+  m_p_t[M_t == "H", "S2"]  <-  0
+  m_p_t[M_t == "H", "D" ]  <-      p_HD              
+  
+  # transition probabilities when Sick 
+  m_p_t[M_t == "S1", "H"] <-      p_S1H 
+  m_p_t[M_t == "S1", "S1"] <- 1 - p_S1H - p_S1S2 - v_p_S1D[df_X$n_cycles_s]
+  m_p_t[M_t == "S1", "S2"] <-             p_S1S2
+  m_p_t[M_t == "S1", "D"] <-                       v_p_S1D[df_X$n_cycles_s]    
+  
+  # transition probabilities when Sicker
+  m_p_t[M_t == "S2", "H"  ] <-  0
+  m_p_t[M_t == "S2", "S1" ] <-  0
+  m_p_t[M_t == "S2", "S2" ] <-  1 - p_S2D
+  m_p_t[M_t == "S2", "D"  ] <-      p_S2D 
+ 
+  # transition probabilities when Dead
+  m_p_t[M_t == "D", "H" ]  <- 0
+  m_p_t[M_t == "D", "S1"]  <- 0
+  m_p_t[M_t == "D", "S2"]  <- 0 
+  m_p_t[M_t == "D", "D" ]  <- 1  
+  
+  return(m_p_t)
+}       
+```
+
+## 05.2 Cost function
+
+The `Costs` function estimates the costs at every cycle.
+
+```{r}
+Costs <- function (M_t, Trt = "Standard of care") {
+  # Arguments:
+    # M_t: health state occupied by individual i at cycle t (character variable)
+    # Trt: Treatment 
+  # Returns:
+    # costs accrued in this cycle
+  
+  # Treatment specific costs
+  if (Trt == "Standard of care") {
+    c_Trt <- 0
+  } else if (Trt == "Strategy AB") {
+    c_Trt <- c_trtAB
+  }
+  
+  c_t <- c()                        # initiate the cost parameter
+  c_t[M_t == "H"]  <- c_H           # update the cost if healthy
+  c_t[M_t == "S1"] <- c_S1 + c_Trt  # update the cost if sick conditional on treatment
+  c_t[M_t == "S2"] <- c_S2          # update the cost if sicker conditional on treatment
+  c_t[M_t == "D"]  <- c_D           # update the cost if dead
+  
+  return(c_t)   # return costs accrued this cycle 
+}
+```
+
+## 05.3 Health outcome function
+
+The `Effs` function to update the utilities at every cycle.
+
+```{r}
+Effs <- function (M_t, df_X, Trt = "Standard of care", cycle_length = 1) {
+  # Arguments:
+    # M_t: health state occupied by individual i at cycle t (character variable)
+    # df_X: data frame with individual characteristics data 
+    # Trt:  Treatment
+    # cycle_length:   cycle length (default is 1)
+  # Returns:
+    # QALYs accrued this cycle
+  
+  u_t <- c()                        # initialize the utility parameter
+  u_t[M_t == "H"]    <- u_H         # update the utility if healthy
+  
+  
+  if (Trt == "Standard of care") {  # update the utility if sick under standard of care
+    u_t[M_t == "S1"] <- u_S1
+  } else if (Trt == "Strategy AB") {
+  # update the utility if sick but on treatment AB (adjust for individual effect modifier) 
+    u_t[M_t == "S1"] <- u_trtAB * df_X$x[M_t == "S1"]  
+  }
+  
+  u_t[M_t == "S2"]   <- u_S2       # update the utility if sicker
+  u_t[M_t == "D"]    <- u_D        # update the utility if dead
+     
+  QALYs <- u_t * cycle_length      # calculate the QALYs during cycle t
+  return(QALYs)                    # return the QALYs accrued this cycle
+}
+```
+
+## 05.4 The Microsimulation function
+
+```{r}
+MicroSim <- function(n_i, df_X, Trt = "Standard of care", seed = 1, cycle_length = 1, verbose = T) {
+  # Arguments:  
+    # n_i : number of individuals
+    # df_X: data frame with individual characteristics data 
+    # Trt : treatment
+    # seed: seed for the random number generator, default is 1
+    # cycle_length  : cycle length
+  # Returns:
+    # results: data frame with total cost and QALYs
+  
+  set.seed(seed) # set a seed to be able to reproduce the same results
+  
+  # create three matrices called m_M, m_C and m_E
+  # number of rows is equal to the n_i, the number of columns is equal to n_cycles  
+  # (the initial state and all the n_cycles cycles)
+  # m_M is used to store the health state information over time for every individual
+  # m_C is used to store the costs information over time for every individual
+  # m_E is used to store the effects information over time for every individual
+  
+  m_M <- m_C <- m_E <-  matrix(nrow = n_i, ncol = n_cycles + 1, 
+                               dimnames = list(paste("ind"  , 1:n_i, sep = " "), 
+                                               paste("cycle", 0:n_cycles, sep = " ")))  
+
+    m_M[, 1] <- as.character(df_X$M_init)        # initial health state at cycle 0 for individual i
+    m_C[, 1] <- Costs(m_M[, 1], Trt = Trt)       # calculate costs per individual during cycle 0    
+    m_E[, 1] <- Effs (m_M[, 1], df_X, Trt = Trt, cycle_length = cycle_length) # calculate QALYs per individual during cycle 0
+    
+    # open a loop for time running cycles 1 to n_cycles 
+    for (t in 1:n_cycles) {
+     # if(t==32)browser()
+      # calculate the transition probabilities for the cycle based on  health state t
+      m_P <- Probs(m_M[, t], df_X, Trt = Trt)             
+      # check if transition probabilities are between 0 and 1
+      check_transition_probability(m_P, verbose = verbose)
+      # check if checks if each of the rows of the transition probabilities matrix sum to one
+      ## NOTE: to make this function work n_states = n_i in a Microsimulation
+      check_sum_of_transition_array(m_P, n_rows = n_i, n_cycles = n_cycles, verbose = verbose) ##
+      # sample the current health state and store that state in matrix m_M 
+      m_M[, t + 1]  <- samplev(m_P, 1)                  
+      # calculate costs per individual during cycle t + 1
+      m_C[, t + 1]  <- Costs(m_M[, t + 1], Trt)         
+      # calculate QALYs per individual during cycle t + 1
+      m_E[, t + 1]  <- Effs(m_M[, t + 1], df_X, Trt, cycle_length = cycle_length)    
+      
+      # update time since illness onset for t + 1 
+      df_X$n_cycles_s <- if_else(m_M[, t + 1] == "S1", df_X$n_cycles_s + 1, 0) 
+      # update the age of individuals that are alive
+      df_X$Age[m_M[, t + 1] != "D"]  <- df_X$Age[m_M[, t + 1] != "D"] + cycle_length # use the age until they have there true birthday
+    
+      # Display simulation progress
+      if(t/(n_cycles/10) == round(t/(n_cycles/10), 0)) { # display progress every 10%
+        cat('\r', paste(t/n_cycles * 100, "% done", sep = " "))
+      }
+      
+    } # close the loop for the time points 
+  
+
+ # Discounted total expected QALYs and Costs per strategy and apply cycle correction ####
+  tc      <- m_C %*% (v_dwc * v_wcc)  # total (discounted and cycle corrected) cost per individual
+  te      <- m_E %*% (v_dwe * v_wcc)  # total (discounted and cycle corrected) QALYs per individual 
+  
+  tc_hat  <- mean(tc)       # average (discounted and cycle corrected) cost 
+  te_hat  <- mean(te)       # average (discounted and cycle corrected) QALY  
+    
+  # store the results from the simulation in a list
+  results <- list(m_M = m_M, m_C = m_C, m_E = m_E, tc = tc , te = te, tc_hat = tc_hat, 
+                  te_hat = te_hat, df_X = df_X)   
+  
+  return(results)  # return the results
+
+} # end of the MicroSim function  
+
+# By specifying all the arguments in the `MicroSim()` the simulation can be started
+# In this example the outcomes are of the simulation are stored in the variables `outcomes_SoC` and `outcomes_trtAB`.
+```
+
+# 06 Run Microsimulation
+
+```{r, eval = TRUE, echo = TRUE, warning = FALSE, message = FALSE, results = FALSE }
+# Run the simulation for both no treatment and treatment options 
+outcomes_SoC   <- MicroSim(n_i = n_i, df_X = df_X, Trt = "Standard of care", seed = 1, cycle_length = cycle_length, verbose= F )
+outcomes_trtAB <- MicroSim(n_i = n_i, df_X = df_X, Trt = "Strategy AB",      seed = 1, cycle_length = cycle_length, verbose = F)
+```
+
+# 07 Visualize results
+
+```{r}
+# Standard of care
+plot(density(outcomes_SoC$tc), main = paste("Total cost per person"),  xlab = "Cost ($)")
+plot(density(outcomes_SoC$te), main = paste("Total QALYs per person"), xlab = "QALYs")
+plot_trace_microsim(outcomes_SoC$m_M)  # health state trace
+```
+
+```{r}
+# Strategy AB
+plot(density(outcomes_trtAB$tc), main = paste("Total cost per person"), xlab = "Cost ($)")
+plot(density(outcomes_trtAB$te), main = paste("Total QALYs per person"), xlab = "QALYs")
+plot_trace_microsim(outcomes_trtAB$m_M)     # health state trace
+```
+
+# 08 Cost-effectiveness analysis (CEA) 
+
+```{r}
+# store the mean costs of each strategy in a new variable C (vector of costs)
+v_C <- c(outcomes_SoC$tc_hat, outcomes_trtAB$tc_hat)
+# store the mean QALYs of each strategy in a new variable E (vector of effects)
+v_E <- c(outcomes_SoC$te_hat, outcomes_trtAB$te_hat)
+
+# use dampack to calculate the ICER
+df_cea <- calculate_icers(cost       = v_C,
+                          effect     = v_E,
+                          strategies = v_names_str)
+df_cea
+```
+
+```{R}
+## CEA table in proper format 
+table_cea <- format_table_cea(df_cea) 
+table_cea
+```
+
+
+```{r}
+## CEA frontier 
+plot(df_cea, label = "all", txtsize = 16) +
+  expand_limits(x = max(table_cea$QALYs) + 0.1) +
+  theme(legend.position = c(0.82, 0.3))
+```
+
+
+```{r}
+## CEA table in proper format 
+table_cea <- format_table_cea(df_cea)
+table_cea
+```
+
+We kindly request you to add the following Acknowledgement paragraph to your further work where DARTH code formed the basis. We also like to remind you that you can add other sources of reference to this paragraph to acknowledge code you got from others. 
+
+# Acknowlegdement
+
+For this work we made use of the template developed by the Decision Analysis in R for Technologies in Health (DARTH) workgroup: <http://darthworkgroup.com>.
+
+The notation of our code is based on the following provided framework and coding convention: Alarid-Escudero, F., Krijkamp, E., Pechlivanoglou, P. et al. A Need for Change! A Coding Framework for Improving Transparency in Decision Modeling. PharmacoEconomics 37, 1329–1339 (2019). <https://doi.org/10.1007/s40273-019-00837-x>.
+
+Other work from DARTH can be found on the website: <http://darthworkgroup.com/publications/>
+
+# Copyright for assignment work
+
+Copyright 2017, THE HOSPITAL FOR SICK CHILDREN AND THE COLLABORATING INSTITUTIONS. All rights reserved in Canada, the United States and worldwide. Copyright, trademarks, trade names and any and all associated intellectual property are exclusively owned by THE HOSPITAL FOR Sick CHILDREN and the collaborating  institutions. These materials may be used, reproduced, modified, distributed and adapted with proper attribution.
+

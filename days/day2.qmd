@@ -46,3 +46,18 @@ By the end of Day 2, participants should be able to:
 <a href="../exercises/microsim_Sick-Sicker_time_exercise_template.Rmd" download>
   Download exercise template
 </a>
+
+<!-- <div id="download-link-microsim" style="display:none;">
+  <a href="../exercises/microsim_Sick-Sicker_time_solutions.Rmd" download>
+    Download Microsim Sick-Sicker exercise - SOLUTIONS
+  </a>
+</div>
+
+<script>
+  const releaseTime = new Date("2026-06-26T16:00:00-04:00"); // set your publish time
+  const now = new Date();
+
+  if (now >= releaseTime) {
+    document.getElementById("download-link-microsim").style.display = "block";
+  }
+</script> -->
