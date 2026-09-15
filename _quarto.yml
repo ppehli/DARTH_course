@@ -26,17 +26,14 @@ project:
 
 website:
   title: "Decision Modeling in R Workshop"
-  site-url: "https://darth-git.github.io/OSLO2026/"
-  repo-url: "https://github.com/darth-git/DARTH_course"
-  #repo-actions: [source, issue]
+  site-url: "https://ppehli.github.io/DARTH_course/"
+  repo-url: "https://github.com/ppehli/DARTH_course"
   search: true
   navbar:
     background: primary
     left:
       - text: "Home"
         href: index.qmd
-      # - text: "Start Here"
-      #   href: getting-started.qmd
       - text: "Pre-Workshop"
         href: prework/index.qmd
       - text: "Day 1"
@@ -45,12 +42,6 @@ website:
         href: days/day2.qmd
       - text: "Day 3"
         href: days/day3.qmd
-      # - text: "Schedule"
-      #   href: schedule.qmd
-      # - text: "Materials"
-      #   href: materials/index.qmd
-      # - text: "Exercises"
-      #   href: exercises/index.qmd
       - text: "Resources"
         href: resources/index.qmd
   sidebar:
@@ -59,45 +50,22 @@ website:
       - section: "Home"
         contents:
           - index.qmd
-          # - getting-started.qmd
-          # - schedule.qmd
           - Instructors.qmd
       - section: "Pre-Workshop Preparation"
         contents:
           - prework/index.qmd
           - prework/intro-r.qmd
-          # - prework/setup-check.qmd
-          # - prework/preparation-exercises.qmd
           - prework/video-lectures-day1.qmd
           - prework/video-lectures-day2.qmd
           - prework/video-lectures-day3.qmd
-          # - prework/readings.qmd
       - section: "Workshop Days"
         contents:
           - days/day1.qmd
           - days/day2.qmd
           - days/day3.qmd
-      # - section: "Materials"
-      #   contents:
-      #     - materials/index.qmd
-          # - materials/slides.qmd
-          # - materials/code.qmd
-          # - materials/data.qmd
-          # - materials/homework.qmd
-      # - section: "Exercises"
-      #   contents:
-      #     - exercises/index.qmd
-      #     - exercises/exercise-01-decision-tree.qmd
-      #     - exercises/exercise-02-markov-model.qmd
-      #     - exercises/exercise-03-microsimulation.qmd
-      #     - exercises/exercise-04-sensitivity-analysis.qmd
-          # - exercises/capstone.qmd
       - section: "Resources"
         contents:
           - resources/index.qmd
-      #     - resources/packages.qmd
-      #     - resources/troubleshooting.qmd
-      #     - after-workshop.qmd
 
 format:
   html:
